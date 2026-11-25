@@ -39,7 +39,6 @@ terraria
 rusted-warfare
 ```
 
-Java 运行库仅作为 Terraria/Rusted Warfare 服务器运行环境的来源附录，不注册为游戏数据集。
 
 ## 快速开始
 
