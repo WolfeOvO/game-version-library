@@ -24,7 +24,7 @@ class CatalogContractTests(unittest.TestCase):
 
     def test_all_requested_games_are_present(self):
         games = {dataset["game_id"] for dataset in self.catalog["datasets"]}
-        self.assertEqual({"minecraft", "stardew-valley", "terraria", "rusted-warfare"}, games)
+        self.assertEqual({"stardew-valley", "terraria", "rusted-warfare"}, games)
 
     def test_catalog_semantic_validator_passes(self):
         result = subprocess.run(
@@ -47,6 +47,20 @@ class CatalogContractTests(unittest.TestCase):
                     walk(child)
 
         walk(self.catalog)
+
+    def test_public_catalog_has_no_minecraft_dataset(self):
+        self.assertNotIn("minecraft", {dataset["game_id"] for dataset in self.catalog["datasets"]})
+
+    def test_markdown_renderer_smoke(self):
+        result = subprocess.run(
+            [sys.executable, "scripts/render_markdown.py"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        self.assertEqual(0, result.returncode, result.stdout + result.stderr)
+        self.assertTrue((ROOT / "rendered/index.md").exists())
 
 
 if __name__ == "__main__":

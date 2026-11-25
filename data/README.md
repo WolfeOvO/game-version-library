@@ -3,6 +3,9 @@
 These JSON files are the audited inputs used by `scripts/build_catalog.py`.
 They are public metadata snapshots, not package archives.
 
+The snapshot set is deliberately non-Minecraft: Stardew Valley, Terraria and
+Rusted Warfare only. Minecraft is maintained in a separate private project.
+
 Before committing, `scripts/sanitize_snapshots.py` removes:
 
 - share passwords;

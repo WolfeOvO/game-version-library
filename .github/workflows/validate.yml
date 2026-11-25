@@ -21,3 +21,5 @@ jobs:
       - run: python scripts/build_catalog.py
       - run: git diff --exit-code -- data/catalog.json
       - run: python scripts/validate_catalog.py
+      - run: python scripts/render_markdown.py
+      - run: python -m unittest discover -s tests -v

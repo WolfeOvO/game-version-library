@@ -1,5 +1,7 @@
 # Security Policy
 
+The public scope is non-Minecraft game libraries only. Do not submit Minecraft source or snapshots here.
+
 Do not submit:
 
 - API keys, access tokens, cookies or account credentials;

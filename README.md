@@ -1,6 +1,8 @@
-# Game Version Library
+# 非 Minecraft 游戏版本库
 
-统一的 Minecraft、星露谷物语、Terraria 与 Rusted Warfare 版本元数据目录。
+统一的星露谷物语、Terraria 与 Rusted Warfare 版本元数据目录。
+
+Minecraft 已单独维护在私有的 `minecraft-site` 项目，本仓库**明确不包含 Minecraft 数据、代码、页面或构建产物**。
 
 本仓库只发布：
 
@@ -16,22 +18,28 @@
 ```text
 schema/game-version-library.schema.json  JSON Schema Draft 2020-12
 
-data/catalog.json                        统一规范化目录
+data/catalog.json                        非 Minecraft 规范化目录
+data/source-snapshots/non-minecraft/     脱敏后的审计快照
 
-data/source-snapshots/                   生成目录使用的审计快照
 scripts/build_catalog.py                  快照 → 规范化目录
+scripts/collect_atomlib.py                Terraria/Rusted Warfare 来源采集器
+scripts/collect_game_history.py           官方 Wiki/更新记录解析器
+scripts/collect_stardew.py                星露谷来源采集器
+scripts/sanitize_snapshots.py             删除提取码和临时签名
 scripts/validate_catalog.py               Schema + 语义校验
+scripts/render_markdown.py                规范目录 → Markdown 页面
 .github/workflows/validate.yml            GitHub Actions 校验
 ```
 
 ## 支持的游戏标识
 
 ```text
-minecraft
 stardew-valley
 terraria
 rusted-warfare
 ```
+
+Java 运行库仅作为 Terraria/Rusted Warfare 服务器运行环境的来源附录，不注册为游戏数据集。
 
 ## 快速开始
 
@@ -39,15 +47,16 @@ rusted-warfare
 python3 -m venv .venv
 . .venv/bin/activate
 pip install -r requirements.txt
+python3 scripts/sanitize_snapshots.py
 python3 scripts/build_catalog.py
+python3 scripts/render_markdown.py
 python3 scripts/validate_catalog.py
+python3 -m unittest discover -s tests -v
 ```
 
-规范化目录写入 `data/catalog.json`。构建过程是确定性的：相同输入快照应生成相同记录身份和内容。`generated_at` 采用输入快照时间的确定性上界，`last_verified_at` 采用目录内最早验证时间；具体数据集和条目还保留自己的验证时间。
+规范化目录写入 `data/catalog.json`。相同输入快照生成相同记录身份；`generated_at` 使用输入快照时间上界，`last_verified_at` 使用目录内最早验证时间。
 
 ## 数据模型
-
-目录层级如下：
 
 ```text
 catalog
@@ -76,7 +85,7 @@ catalog
 
 每条记录都应能够回到一个注册来源。`provenance` 保存来源 ID、读取时间和采集方式，`license` 区分项目代码、目录数据以及上游内容。
 
-默认数据再分发策略为 `link-only`：公开元数据和入口，但不暗示原始游戏文件可以由本项目再分发。令牌、Cookie、临时签名和账户凭据不得提交；提取码只有在确认属于公开分享信息时才可作为公开提示。
+默认数据再分发策略为 `link-only`：公开元数据和入口，但不暗示原始游戏文件可以由本项目再分发。令牌、Cookie、临时签名和账户凭据不得提交。网盘密码和临时签名参数在进入公共快照前已删除，目录只保留 `access.mode`。
 
 ## CI
 
@@ -87,7 +96,7 @@ Pull request 和 `main` 分支会执行：
 3. 来源 ID、记录 ID、入口 ID 唯一性检查；
 4. 日期一致性检查；
 5. 凭据样式 URL 检查；
-6. 四个游戏 ID 的覆盖检查。
+6. 三个非 Minecraft 游戏 ID 的覆盖检查。
 
 ## 许可
 

@@ -17,3 +17,4 @@ logs/
 # Generated temporary files.
 *.tmp
 *.partial
+rendered/
