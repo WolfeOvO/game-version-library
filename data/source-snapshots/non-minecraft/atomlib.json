@@ -1,0 +1,676 @@
+{
+ "generated": "2026-11-02T13:18:55Z",
+ "source": {
+  "name": "NullAtom 原子资源",
+  "site": "https://res.nullatom.com",
+  "api": "https://res.nullatom.com/api/fetch"
+ },
+ "libraries": {
+  "terraria": {
+   "name": "泰拉瑞亚",
+   "slug": "terraria",
+   "intro": "泰拉瑞亚（Terraria）客户端与服务端安装包：Android / Windows 客户端，原版 PC / 手机版 / tModLoader / TShock 服务端。",
+   "groups": [
+    {
+     "key": "client-android",
+     "label": "Android（PE）",
+     "kind": "client",
+     "files": [
+      {
+       "name": "1.4.4.9.apk",
+       "path": "/Terraria/PE/1.4.4.9.apk",
+       "url": "https://res.nullatom.com/Terraria/PE/1.4.4.9.apk",
+       "size": 171009646,
+       "created": "2026-01-22",
+       "version": "1.4.4.9",
+       "variant": "APK",
+       "os": "Android",
+       "arch": "",
+       "note": ""
+      },
+      {
+       "name": "1.4.0.5.apk",
+       "path": "/Terraria/PE/1.4.0.5.apk",
+       "url": "https://res.nullatom.com/Terraria/PE/1.4.0.5.apk",
+       "size": 252457578,
+       "created": "2025-11-08",
+       "version": "1.4.0.5",
+       "variant": "APK",
+       "os": "Android",
+       "arch": "",
+       "note": ""
+      },
+      {
+       "name": "1.3.0.7.apk",
+       "path": "/Terraria/PE/1.3.0.7.apk",
+       "url": "https://res.nullatom.com/Terraria/PE/1.3.0.7.apk",
+       "size": 101938551,
+       "created": "2026-01-22",
+       "version": "1.3.0.7",
+       "variant": "APK",
+       "os": "Android",
+       "arch": "",
+       "note": ""
+      },
+      {
+       "name": "1.2.12785.apk",
+       "path": "/Terraria/PE/1.2.12785.apk",
+       "url": "https://res.nullatom.com/Terraria/PE/1.2.12785.apk",
+       "size": 107915698,
+       "created": "2026-01-22",
+       "version": "1.2.12785",
+       "variant": "APK",
+       "os": "Android",
+       "arch": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "key": "client-windows",
+     "label": "Windows",
+     "kind": "client",
+     "files": [
+      {
+       "name": "setup_terraria_v1.4.4.9.exe",
+       "path": "/Terraria/Windows/setup_terraria_v1.4.4.9.exe",
+       "url": "https://res.nullatom.com/Terraria/Windows/setup_terraria_v1.4.4.9.exe",
+       "size": 610064240,
+       "created": "2025-11-08",
+       "version": "1.4.4.9",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "key": "server-pc",
+     "label": "原版（PC）",
+     "kind": "server",
+     "files": [
+      {
+       "name": "terraria-server-1.4.4.9.zip",
+       "path": "/Terraria/Server/PC/terraria-server-1.4.4.9.zip",
+       "url": "https://res.nullatom.com/Terraria/Server/PC/terraria-server-1.4.4.9.zip",
+       "size": 44628067,
+       "created": "2026-01-22",
+       "version": "1.4.4.9",
+       "variant": "",
+       "os": "Windows / Linux",
+       "arch": "",
+       "note": ""
+      },
+      {
+       "name": "terraria-server-1.4.3.6.zip",
+       "path": "/Terraria/Server/PC/terraria-server-1.4.3.6.zip",
+       "url": "https://res.nullatom.com/Terraria/Server/PC/terraria-server-1.4.3.6.zip",
+       "size": 43392536,
+       "created": "2026-01-22",
+       "version": "1.4.3.6",
+       "variant": "",
+       "os": "Windows / Linux",
+       "arch": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "key": "server-mobile",
+     "label": "手机版",
+     "kind": "server",
+     "files": [
+      {
+       "name": "Terraria-Mobile-Server-1.4.4.9.zip",
+       "path": "/Terraria/Server/PE/Terraria-Mobile-Server-1.4.4.9.zip",
+       "url": "https://res.nullatom.com/Terraria/Server/PE/Terraria-Mobile-Server-1.4.4.9.zip",
+       "size": 44628067,
+       "created": "2026-01-22",
+       "version": "1.4.4.9",
+       "variant": "",
+       "os": "Android",
+       "arch": "",
+       "note": ""
+      },
+      {
+       "name": "Terraria-Mobile-Server-1.4.3.2.zip",
+       "path": "/Terraria/Server/PE/Terraria-Mobile-Server-1.4.3.2.zip",
+       "url": "https://res.nullatom.com/Terraria/Server/PE/Terraria-Mobile-Server-1.4.3.2.zip",
+       "size": 56078975,
+       "created": "2026-01-22",
+       "version": "1.4.3.2",
+       "variant": "",
+       "os": "Android",
+       "arch": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "key": "server-tmodloader",
+     "label": "tModLoader",
+     "kind": "server",
+     "files": [
+      {
+       "name": "tModLoader-1.4.4.zip",
+       "path": "/Terraria/Server/TModLoader/tModLoader-1.4.4.zip",
+       "url": "https://res.nullatom.com/Terraria/Server/TModLoader/tModLoader-1.4.4.zip",
+       "size": 33862773,
+       "created": "2026-01-22",
+       "version": "1.4.4",
+       "variant": "",
+       "os": "",
+       "arch": "",
+       "note": "tModLoader 服务端（对应泰拉瑞亚 1.4.4）"
+      }
+     ]
+    },
+    {
+     "key": "server-tshock",
+     "label": "TShock",
+     "kind": "server",
+     "files": [
+      {
+       "name": "Terraria-1.4.4.7-win-x64-Release.zip",
+       "path": "/Terraria/Server/TShock/Windows/Terraria-1.4.4.7-win-x64-Release.zip",
+       "url": "https://res.nullatom.com/Terraria/Server/TShock/Windows/Terraria-1.4.4.7-win-x64-Release.zip",
+       "size": 14934715,
+       "created": "2026-01-22",
+       "version": "1.4.4.7",
+       "variant": "",
+       "os": "Windows",
+       "arch": "x64",
+       "note": "TShock 服务端"
+      },
+      {
+       "name": "Terraria-1.4.4.7-linux-x64-Release.zip",
+       "path": "/Terraria/Server/TShock/Linux/Terraria-1.4.4.7-linux-x64-Release.zip",
+       "url": "https://res.nullatom.com/Terraria/Server/TShock/Linux/Terraria-1.4.4.7-linux-x64-Release.zip",
+       "size": 14534555,
+       "created": "2026-01-22",
+       "version": "1.4.4.7",
+       "variant": "",
+       "os": "Linux",
+       "arch": "x64",
+       "note": "TShock 服务端"
+      }
+     ]
+    },
+    {
+     "key": "server-tshock-atomcraft",
+     "label": "AtomCraft",
+     "kind": "server",
+     "files": [
+      {
+       "name": "TShock4.5.17_Terraria1.4.3.6.zip",
+       "path": "/Terraria/Server/TShock/AtomCraft/TShock4.5.17_Terraria1.4.3.6.zip",
+       "url": "https://res.nullatom.com/Terraria/Server/TShock/AtomCraft/TShock4.5.17_Terraria1.4.3.6.zip",
+       "size": 7970924,
+       "created": "2026-01-22",
+       "version": "4.5.17",
+       "variant": "泰拉瑞亚 1.4.3.6",
+       "os": "",
+       "arch": "",
+       "note": "TShock 4.5.17 + 泰拉瑞亚 1.4.3.6"
+      }
+     ]
+    }
+   ]
+  },
+  "rustedwarfare": {
+   "name": "铁锈战争",
+   "slug": "rustedwarfare",
+   "intro": "铁锈战争（Rusted Warfare）Android 客户端与 RW-HPS 服务端。",
+   "groups": [
+    {
+     "key": "client-android",
+     "label": "Android",
+     "kind": "client",
+     "files": [
+      {
+       "name": "1.15.apk",
+       "path": "/RustedWarfare/Android/1.15.apk",
+       "url": "https://res.nullatom.com/RustedWarfare/Android/1.15.apk",
+       "size": 26564607,
+       "created": "2026-01-22",
+       "version": "1.15",
+       "variant": "APK",
+       "os": "Android",
+       "arch": "",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "key": "server-rwhps",
+     "label": "RW-HPS 服务端",
+     "kind": "server",
+     "files": [
+      {
+       "name": "6.0.0.jar",
+       "path": "/RustedWarfare/Server/RW-HPS/6.0.0.jar",
+       "url": "https://res.nullatom.com/RustedWarfare/Server/RW-HPS/6.0.0.jar",
+       "size": 12142952,
+       "created": "2026-01-22",
+       "version": "6.0.0",
+       "variant": "",
+       "os": "",
+       "arch": "",
+       "note": "RW-HPS（Java 版专用服务端）"
+      },
+      {
+       "name": "5.4.2.jar",
+       "path": "/RustedWarfare/Server/RW-HPS/5.4.2.jar",
+       "url": "https://res.nullatom.com/RustedWarfare/Server/RW-HPS/5.4.2.jar",
+       "size": 7292413,
+       "created": "2026-01-22",
+       "version": "5.4.2",
+       "variant": "",
+       "os": "",
+       "arch": "",
+       "note": "RW-HPS（Java 版专用服务端）"
+      }
+     ]
+    }
+   ]
+  },
+  "java": {
+   "name": "Java 运行库",
+   "slug": "java",
+   "intro": "多版本 Java 运行环境（JDK / JRE / GraalVM / GraalJS），开服与老版本 Minecraft 都能对上号。",
+   "products": [
+    {
+     "key": "jdk",
+     "label": "JDK（开发包，服务端常用）",
+     "files": [
+      {
+       "name": "jdk-23.0.2_windows-x64_bin.exe",
+       "path": "/Java/jdk-23.0.2_windows-x64_bin.exe",
+       "url": "https://res.nullatom.com/Java/jdk-23.0.2_windows-x64_bin.exe",
+       "size": 215243888,
+       "created": "2025-11-08",
+       "version": "23.0.2",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "jdk-21.0.7_windows-x64_bin.exe",
+       "path": "/Java/jdk-21.0.7_windows-x64_bin.exe",
+       "url": "https://res.nullatom.com/Java/jdk-21.0.7_windows-x64_bin.exe",
+       "size": 172330096,
+       "created": "2026-01-22",
+       "version": "21.0.7",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "jdk-21_windows-x64_bin.exe",
+       "path": "/Java/jdk-21_windows-x64_bin.exe",
+       "url": "https://res.nullatom.com/Java/jdk-21_windows-x64_bin.exe",
+       "size": 171745904,
+       "created": "2026-01-22",
+       "version": "21",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "jdk-19_windows-x64_bin.exe",
+       "path": "/Java/jdk-19_windows-x64_bin.exe",
+       "url": "https://res.nullatom.com/Java/jdk-19_windows-x64_bin.exe",
+       "size": 166629024,
+       "created": "2026-01-22",
+       "version": "19",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "jdk-18_windows-x64_bin.exe",
+       "path": "/Java/jdk-18_windows-x64_bin.exe",
+       "url": "https://res.nullatom.com/Java/jdk-18_windows-x64_bin.exe",
+       "size": 160816904,
+       "created": "2026-01-22",
+       "version": "18",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "jdk-17_windows-x64_bin.exe",
+       "path": "/Java/jdk-17_windows-x64_bin.exe",
+       "url": "https://res.nullatom.com/Java/jdk-17_windows-x64_bin.exe",
+       "size": 160197824,
+       "created": "2026-01-20",
+       "version": "17",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "key": "jre",
+     "label": "JRE 8（老版本 Minecraft 用）",
+     "files": [
+      {
+       "name": "jre-8u361-windows-x64.exe",
+       "path": "/Java/jre-8u361-windows-x64.exe",
+       "url": "https://res.nullatom.com/Java/jre-8u361-windows-x64.exe",
+       "size": 65129096,
+       "created": "2026-01-22",
+       "version": "8u361",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "jre-8u351-windows-x64.exe",
+       "path": "/Java/jre-8u351-windows-x64.exe",
+       "url": "https://res.nullatom.com/Java/jre-8u351-windows-x64.exe",
+       "size": 88599176,
+       "created": "2026-01-22",
+       "version": "8u351",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "jre-8u341-windows-x64.exe",
+       "path": "/Java/jre-8u341-windows-x64.exe",
+       "url": "https://res.nullatom.com/Java/jre-8u341-windows-x64.exe",
+       "size": 87518384,
+       "created": "2026-01-22",
+       "version": "8u341",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "jre-8u321-windows-x64.exe",
+       "path": "/Java/jre-8u321-windows-x64.exe",
+       "url": "https://res.nullatom.com/Java/jre-8u321-windows-x64.exe",
+       "size": 85969096,
+       "created": "2026-01-22",
+       "version": "8u321",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "jre-8u311-windows-x64.exe",
+       "path": "/Java/jre-8u311-windows-x64.exe",
+       "url": "https://res.nullatom.com/Java/jre-8u311-windows-x64.exe",
+       "size": 85675840,
+       "created": "2026-01-22",
+       "version": "8u311",
+       "variant": "安装包",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "key": "graalvm-jdk",
+     "label": "GraalVM Community JDK",
+     "files": [
+      {
+       "name": "graalvm-community-jdk-21.0.2_macos-x64_bin.tar.gz",
+       "path": "/Java/graalvm/graalvm-community-jdk-21.0.2_macos-x64_bin.tar.gz",
+       "url": "https://res.nullatom.com/Java/graalvm/graalvm-community-jdk-21.0.2_macos-x64_bin.tar.gz",
+       "size": 281788205,
+       "created": "2025-11-08",
+       "version": "21.0.2",
+       "variant": "",
+       "os": "macOS",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "graalvm-community-jdk-21.0.2_macos-aarch64_bin.tar.gz",
+       "path": "/Java/graalvm/graalvm-community-jdk-21.0.2_macos-aarch64_bin.tar.gz",
+       "url": "https://res.nullatom.com/Java/graalvm/graalvm-community-jdk-21.0.2_macos-aarch64_bin.tar.gz",
+       "size": 294564421,
+       "created": "2025-11-08",
+       "version": "21.0.2",
+       "variant": "",
+       "os": "macOS",
+       "arch": "arm64",
+       "note": ""
+      },
+      {
+       "name": "graalvm-community-jdk-21.0.2_windows-x64_bin.zip",
+       "path": "/Java/graalvm/graalvm-community-jdk-21.0.2_windows-x64_bin.zip",
+       "url": "https://res.nullatom.com/Java/graalvm/graalvm-community-jdk-21.0.2_windows-x64_bin.zip",
+       "size": 294517795,
+       "created": "2025-11-08",
+       "version": "21.0.2",
+       "variant": "",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "graalvm-community-jdk-21.0.2_linux-x64_bin.tar.gz",
+       "path": "/Java/graalvm/graalvm-community-jdk-21.0.2_linux-x64_bin.tar.gz",
+       "url": "https://res.nullatom.com/Java/graalvm/graalvm-community-jdk-21.0.2_linux-x64_bin.tar.gz",
+       "size": 288637296,
+       "created": "2025-11-08",
+       "version": "21.0.2",
+       "variant": "",
+       "os": "Linux",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "graalvm-community-jdk-21.0.2_linux-aarch64_bin.tar.gz",
+       "path": "/Java/graalvm/graalvm-community-jdk-21.0.2_linux-aarch64_bin.tar.gz",
+       "url": "https://res.nullatom.com/Java/graalvm/graalvm-community-jdk-21.0.2_linux-aarch64_bin.tar.gz",
+       "size": 279865596,
+       "created": "2025-11-08",
+       "version": "21.0.2",
+       "variant": "",
+       "os": "Linux",
+       "arch": "arm64",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "key": "graalvm-ce",
+     "label": "GraalVM CE（Java 17）",
+     "files": [
+      {
+       "name": "graalvm-ce-java17-darwin-amd64-22.3.1.tar.gz",
+       "path": "/Java/graalvm/graalvm-ce-java17-darwin-amd64-22.3.1.tar.gz",
+       "url": "https://res.nullatom.com/Java/graalvm/graalvm-ce-java17-darwin-amd64-22.3.1.tar.gz",
+       "size": 261026390,
+       "created": "2025-11-08",
+       "version": "22.3.1",
+       "variant": "Java 17",
+       "os": "macOS",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "graalvm-ce-java17-darwin-aarch64-22.3.1.tar.gz",
+       "path": "/Java/graalvm/graalvm-ce-java17-darwin-aarch64-22.3.1.tar.gz",
+       "url": "https://res.nullatom.com/Java/graalvm/graalvm-ce-java17-darwin-aarch64-22.3.1.tar.gz",
+       "size": 258360745,
+       "created": "2025-11-08",
+       "version": "22.3.1",
+       "variant": "Java 17",
+       "os": "macOS",
+       "arch": "arm64",
+       "note": ""
+      },
+      {
+       "name": "graalvm-ce-java17-windows-amd64-22.3.1.zip",
+       "path": "/Java/graalvm/graalvm-ce-java17-windows-amd64-22.3.1.zip",
+       "url": "https://res.nullatom.com/Java/graalvm/graalvm-ce-java17-windows-amd64-22.3.1.zip",
+       "size": 256895922,
+       "created": "2025-11-08",
+       "version": "22.3.1",
+       "variant": "Java 17",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "graalvm-ce-java17-linux-amd64-22.3.1.tar.gz",
+       "path": "/Java/graalvm/graalvm-ce-java17-linux-amd64-22.3.1.tar.gz",
+       "url": "https://res.nullatom.com/Java/graalvm/graalvm-ce-java17-linux-amd64-22.3.1.tar.gz",
+       "size": 264433278,
+       "created": "2025-11-08",
+       "version": "22.3.1",
+       "variant": "Java 17",
+       "os": "Linux",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "graalvm-ce-java17-linux-aarch64-22.3.1.tar.gz",
+       "path": "/Java/graalvm/graalvm-ce-java17-linux-aarch64-22.3.1.tar.gz",
+       "url": "https://res.nullatom.com/Java/graalvm/graalvm-ce-java17-linux-aarch64-22.3.1.tar.gz",
+       "size": 262796465,
+       "created": "2025-11-08",
+       "version": "22.3.1",
+       "variant": "Java 17",
+       "os": "Linux",
+       "arch": "arm64",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "key": "graaljs",
+     "label": "GraalJS（GraalVM 的 JS 运行时）",
+     "files": [
+      {
+       "name": "js-installable-svm-java17-darwin-amd64-23.0.0.jar",
+       "path": "/Java/graalvm/graaljs/js-installable-svm-java17-darwin-amd64-23.0.0.jar",
+       "url": "https://res.nullatom.com/Java/graalvm/graaljs/js-installable-svm-java17-darwin-amd64-23.0.0.jar",
+       "size": 75919723,
+       "created": "2026-01-22",
+       "version": "23.0.0",
+       "variant": "Java 17",
+       "os": "macOS",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "js-installable-svm-java17-darwin-aarch64-23.0.0.jar",
+       "path": "/Java/graalvm/graaljs/js-installable-svm-java17-darwin-aarch64-23.0.0.jar",
+       "url": "https://res.nullatom.com/Java/graalvm/graaljs/js-installable-svm-java17-darwin-aarch64-23.0.0.jar",
+       "size": 73608513,
+       "created": "2026-01-22",
+       "version": "23.0.0",
+       "variant": "Java 17",
+       "os": "macOS",
+       "arch": "arm64",
+       "note": ""
+      },
+      {
+       "name": "js-installable-svm-java17-linux-amd64-23.0.0.jar",
+       "path": "/Java/graalvm/graaljs/js-installable-svm-java17-linux-amd64-23.0.0.jar",
+       "url": "https://res.nullatom.com/Java/graalvm/graaljs/js-installable-svm-java17-linux-amd64-23.0.0.jar",
+       "size": 74326843,
+       "created": "2026-01-22",
+       "version": "23.0.0",
+       "variant": "Java 17",
+       "os": "Linux",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "js-installable-svm-java17-linux-aarch64-23.0.0.jar",
+       "path": "/Java/graalvm/graaljs/js-installable-svm-java17-linux-aarch64-23.0.0.jar",
+       "url": "https://res.nullatom.com/Java/graalvm/graaljs/js-installable-svm-java17-linux-aarch64-23.0.0.jar",
+       "size": 72123276,
+       "created": "2026-01-22",
+       "version": "23.0.0",
+       "variant": "Java 17",
+       "os": "Linux",
+       "arch": "arm64",
+       "note": ""
+      },
+      {
+       "name": "js-installable-svm-java17-darwin-amd64-22.3.1.jar",
+       "path": "/Java/graalvm/graaljs/js-installable-svm-java17-darwin-amd64-22.3.1.jar",
+       "url": "https://res.nullatom.com/Java/graalvm/graaljs/js-installable-svm-java17-darwin-amd64-22.3.1.jar",
+       "size": 66084619,
+       "created": "2026-01-22",
+       "version": "22.3.1",
+       "variant": "Java 17",
+       "os": "macOS",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "js-installable-svm-java17-darwin-aarch64-22.3.1.jar",
+       "path": "/Java/graalvm/graaljs/js-installable-svm-java17-darwin-aarch64-22.3.1.jar",
+       "url": "https://res.nullatom.com/Java/graalvm/graaljs/js-installable-svm-java17-darwin-aarch64-22.3.1.jar",
+       "size": 65303707,
+       "created": "2026-01-22",
+       "version": "22.3.1",
+       "variant": "Java 17",
+       "os": "macOS",
+       "arch": "arm64",
+       "note": ""
+      },
+      {
+       "name": "js-installable-svm-java17-windows-amd64-22.3.1.jar",
+       "path": "/Java/graalvm/graaljs/js-installable-svm-java17-windows-amd64-22.3.1.jar",
+       "url": "https://res.nullatom.com/Java/graalvm/graaljs/js-installable-svm-java17-windows-amd64-22.3.1.jar",
+       "size": 63117157,
+       "created": "2026-01-22",
+       "version": "22.3.1",
+       "variant": "Java 17",
+       "os": "Windows",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "js-installable-svm-java17-linux-amd64-22.3.1.jar",
+       "path": "/Java/graalvm/graaljs/js-installable-svm-java17-linux-amd64-22.3.1.jar",
+       "url": "https://res.nullatom.com/Java/graalvm/graaljs/js-installable-svm-java17-linux-amd64-22.3.1.jar",
+       "size": 64830069,
+       "created": "2026-01-22",
+       "version": "22.3.1",
+       "variant": "Java 17",
+       "os": "Linux",
+       "arch": "x64",
+       "note": ""
+      },
+      {
+       "name": "js-installable-svm-java17-linux-aarch64-22.3.1.jar",
+       "path": "/Java/graalvm/graaljs/js-installable-svm-java17-linux-aarch64-22.3.1.jar",
+       "url": "https://res.nullatom.com/Java/graalvm/graaljs/js-installable-svm-java17-linux-aarch64-22.3.1.jar",
+       "size": 64100639,
+       "created": "2026-01-22",
+       "version": "22.3.1",
+       "variant": "Java 17",
+       "os": "Linux",
+       "arch": "arm64",
+       "note": ""
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

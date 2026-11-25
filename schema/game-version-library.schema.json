@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/WolfeOvO/game-version-library/main/schema/game-version-library.schema.json",
+  "title": "Game Version Library Catalog",
+  "description": "统一的游戏版本、构建、来源与下载入口目录；游戏包本身不属于此数据文件。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "catalog_id", "generated_at", "last_verified_at", "license", "provenance", "datasets"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "catalog_id": {"$ref": "#/$defs/stableId"},
+    "generated_at": {"$ref": "#/$defs/dateTime"},
+    "last_verified_at": {"$ref": "#/$defs/dateTime"},
+    "license": {"$ref": "#/$defs/license"},
+    "provenance": {"$ref": "#/$defs/catalogProvenance"},
+    "datasets": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/dataset"}},
+    "extensions": {"$ref": "#/$defs/extensions"}
+  },
+  "$defs": {
+    "stableId": {"type": "string", "pattern": "^[a-z0-9]+(?:[.-][a-z0-9]+)*$", "minLength": 1, "maxLength": 160},
+    "gameId": {"type": "string", "enum": ["minecraft", "stardew-valley", "terraria", "rusted-warfare"]},
+    "platformId": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "minLength": 1, "maxLength": 120},
+    "nonEmptyString": {"type": "string", "minLength": 1},
+    "uri": {"type": "string", "format": "uri"},
+    "date": {"type": "string", "format": "date"},
+    "dateTime": {"type": "string", "format": "date-time"},
+    "extensions": {"type": "object", "additionalProperties": true},
+    "licenseRef": {"type": "string", "pattern": "^(NOASSERTION|LicenseRef-[A-Za-z0-9.-]+|[A-Za-z0-9][A-Za-z0-9.+-]*)$"},
+    "license": {
+      "type": "object", "additionalProperties": false, "required": ["data", "redistribution"],
+      "properties": {
+        "data": {"$ref": "#/$defs/licenseItem"},
+        "code": {"$ref": "#/$defs/licenseItem"},
+        "upstream": {"type": "array", "items": {"$ref": "#/$defs/upstreamLicense"}, "uniqueItems": true},
+        "redistribution": {"type": "string", "enum": ["metadata-only", "link-only", "explicitly-permitted", "unknown"]},
+        "notes": {"type": "string"}
+      }
+    },
+    "licenseItem": {
+      "type": "object", "additionalProperties": false, "required": ["spdx_id"],
+      "properties": {"spdx_id": {"$ref": "#/$defs/licenseRef"}, "url": {"$ref": "#/$defs/uri"}, "notice": {"type": "string"}}
+    },
+    "upstreamLicense": {
+      "type": "object", "additionalProperties": false, "required": ["scope", "spdx_id"],
+      "properties": {
+        "scope": {"type": "string", "enum": ["metadata", "artwork", "documentation", "package", "source"]},
+        "spdx_id": {"$ref": "#/$defs/licenseRef"}, "url": {"$ref": "#/$defs/uri"}, "notice": {"type": "string"}
+      }
+    },
+    "catalogProvenance": {
+      "type": "object", "additionalProperties": false, "required": ["pipeline", "sources"],
+      "properties": {"pipeline": {"$ref": "#/$defs/pipeline"}, "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/source"}}, "notes": {"type": "string"}}
+    },
+    "pipeline": {
+      "type": "object", "additionalProperties": false, "required": ["name", "version"],
+      "properties": {"name": {"$ref": "#/$defs/nonEmptyString"}, "version": {"$ref": "#/$defs/nonEmptyString"}, "repository": {"$ref": "#/$defs/uri"}, "commit": {"type": "string", "pattern": "^[0-9a-fA-F]{7,64}$"}}
+    },
+    "source": {
+      "type": "object", "additionalProperties": false, "required": ["source_id", "name", "url", "kind", "retrieved_at"],
+      "properties": {
+        "source_id": {"$ref": "#/$defs/stableId"}, "name": {"$ref": "#/$defs/nonEmptyString"}, "url": {"$ref": "#/$defs/uri"},
+        "kind": {"type": "string", "enum": ["official", "api", "manifest", "repository", "web", "manual", "import"]},
+        "retrieved_at": {"$ref": "#/$defs/dateTime"}, "terms_url": {"$ref": "#/$defs/uri"}, "license": {"$ref": "#/$defs/licenseItem"}, "notes": {"type": "string"}
+      }
+    },
+    "dataset": {
+      "type": "object", "additionalProperties": false,
+      "required": ["dataset_id", "game_id", "platform_id", "name", "platform", "last_verified_at", "license", "provenance", "entries"],
+      "properties": {
+        "dataset_id": {"$ref": "#/$defs/stableId"}, "game_id": {"$ref": "#/$defs/gameId"}, "platform_id": {"$ref": "#/$defs/platformId"}, "name": {"$ref": "#/$defs/nonEmptyString"},
+        "platform": {"$ref": "#/$defs/platform"}, "last_verified_at": {"$ref": "#/$defs/dateTime"}, "license": {"$ref": "#/$defs/license"},
+        "provenance": {"$ref": "#/$defs/datasetProvenance"}, "entries": {"type": "array", "items": {"$ref": "#/$defs/entry"}}, "extensions": {"$ref": "#/$defs/extensions"}
+      }
+    },
+    "platform": {
+      "type": "object", "additionalProperties": false, "required": ["display_name", "family"],
+      "properties": {
+        "display_name": {"$ref": "#/$defs/nonEmptyString"}, "family": {"type": "string", "enum": ["desktop", "mobile", "console", "server", "web", "unknown"]},
+        "os": {"type": "string"}, "architectures": {"type": "array", "items": {"$ref": "#/$defs/nonEmptyString"}, "uniqueItems": true}
+      }
+    },
+    "datasetProvenance": {
+      "type": "object", "additionalProperties": false, "required": ["source_ids", "method"],
+      "properties": {
+        "source_ids": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/stableId"}, "uniqueItems": true},
+        "method": {"type": "string", "enum": ["api", "manifest", "html", "manual", "import", "derived"]}, "retrieved_at": {"$ref": "#/$defs/dateTime"}, "notes": {"type": "string"}
+      }
+    },
+    "entry": {
+      "type": "object", "additionalProperties": false,
+      "required": ["entry_id", "entry_type", "version", "version_raw", "version_normalized", "channel", "availability", "last_verified_at", "provenance"],
+      "properties": {
+        "entry_id": {"$ref": "#/$defs/stableId"}, "entry_type": {"type": "string", "enum": ["version", "collection"]}, "version": {"$ref": "#/$defs/nonEmptyString"},
+        "version_raw": {"$ref": "#/$defs/nonEmptyString"}, "version_normalized": {"$ref": "#/$defs/nonEmptyString"},
+        "aliases": {"type": "array", "items": {"$ref": "#/$defs/nonEmptyString"}, "uniqueItems": true},
+        "channel": {"type": "string", "enum": ["release", "beta", "preview", "snapshot", "alpha", "nightly", "old", "unknown"]},
+        "major": {"type": "string"}, "release_date": {"$ref": "#/$defs/date"}, "released_at": {"$ref": "#/$defs/dateTime"},
+        "availability": {"type": "string", "enum": ["downloadable", "metadata-only", "unavailable", "unknown"]},
+        "artifacts": {"type": "array", "items": {"$ref": "#/$defs/artifact"}}, "offers": {"type": "array", "items": {"$ref": "#/$defs/offer"}},
+        "coverage": {"$ref": "#/$defs/coverage"}, "notes": {"type": "string"}, "tags": {"type": "array", "items": {"$ref": "#/$defs/nonEmptyString"}, "uniqueItems": true},
+        "last_verified_at": {"$ref": "#/$defs/dateTime"}, "provenance": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/entryProvenance"}},
+        "license": {"$ref": "#/$defs/license"}, "extensions": {"$ref": "#/$defs/extensions"}
+      },
+      "allOf": [{"if": {"properties": {"entry_type": {"const": "collection"}}}, "then": {"required": ["coverage"]}}]
+    },
+    "entryProvenance": {
+      "type": "object", "additionalProperties": false, "required": ["source_id", "retrieved_at", "method"],
+      "properties": {
+        "source_id": {"$ref": "#/$defs/stableId"}, "source_record_id": {"$ref": "#/$defs/nonEmptyString"}, "source_url": {"$ref": "#/$defs/uri"},
+        "retrieved_at": {"$ref": "#/$defs/dateTime"}, "method": {"type": "string", "enum": ["api", "manifest", "html", "manual", "import", "derived"]},
+        "evidence_sha256": {"type": "string", "pattern": "^[A-Fa-f0-9]{64}$"}, "transform_note": {"type": "string"}
+      }
+    },
+    "coverage": {
+      "type": "object", "additionalProperties": false, "required": ["scope"],
+      "properties": {"scope": {"type": "string", "enum": ["directory", "range", "collection"]}, "included_versions": {"type": "array", "items": {"$ref": "#/$defs/nonEmptyString"}, "uniqueItems": true}, "range": {"type": "string"}, "note": {"type": "string"}}
+    },
+    "artifact": {
+      "type": "object", "additionalProperties": false, "required": ["artifact_id", "artifact_type", "offers"],
+      "properties": {
+        "artifact_id": {"$ref": "#/$defs/stableId"}, "artifact_type": {"type": "string", "enum": ["client", "server", "installer", "package", "archive", "patch", "mod", "resource", "unknown"]},
+        "name": {"type": "string"}, "filename": {"type": "string"}, "architecture": {"type": "string"}, "variant": {"type": "string"},
+        "size_bytes": {"type": ["integer", "null"], "minimum": 0}, "checksums": {"type": "array", "items": {"$ref": "#/$defs/checksum"}, "uniqueItems": true},
+        "offers": {"type": "array", "items": {"$ref": "#/$defs/offer"}}, "last_verified_at": {"$ref": "#/$defs/dateTime"}, "extensions": {"$ref": "#/$defs/extensions"}
+      }
+    },
+    "checksum": {
+      "type": "object", "additionalProperties": false, "required": ["algorithm", "value"],
+      "properties": {"algorithm": {"type": "string", "enum": ["md5", "sha1", "sha256", "sha512", "blake3"]}, "value": {"type": "string", "pattern": "^[A-Fa-f0-9]{32,128}$"}}
+    },
+    "offer": {
+      "type": "object", "additionalProperties": false, "required": ["offer_id", "source_id", "kind", "scope", "url", "verification_status", "last_verified_at"],
+      "properties": {
+        "offer_id": {"$ref": "#/$defs/stableId"}, "source_id": {"$ref": "#/$defs/stableId"}, "source_record_id": {"$ref": "#/$defs/nonEmptyString"},
+        "kind": {"type": "string", "enum": ["official", "direct", "mirror", "share", "page", "directory", "api", "metadata"]},
+        "scope": {"type": "string", "enum": ["file", "package", "directory", "page", "metadata"]}, "url": {"$ref": "#/$defs/uri"}, "landing_url": {"$ref": "#/$defs/uri"},
+        "label": {"type": "string"}, "provider": {"type": "string"}, "architecture": {"type": "string"}, "variant": {"type": "string"},
+        "size_bytes": {"type": ["integer", "null"], "minimum": 0}, "checksums": {"type": "array", "items": {"$ref": "#/$defs/checksum"}, "uniqueItems": true},
+        "access": {"$ref": "#/$defs/access"}, "verification_status": {"type": "string", "enum": ["verified", "reachable", "unknown", "unavailable", "expired", "requires-account"]},
+        "status_note": {"type": "string"}, "last_verified_at": {"$ref": "#/$defs/dateTime"}, "extensions": {"$ref": "#/$defs/extensions"}
+      }
+    },
+    "access": {
+      "type": "object", "additionalProperties": false, "required": ["mode"],
+      "properties": {"mode": {"type": "string", "enum": ["public", "password", "account", "signed", "unknown"]}, "public_hint": {"type": "string"}}
+    }
+  }
+}

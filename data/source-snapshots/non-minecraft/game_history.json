@@ -1,0 +1,3069 @@
+{
+ "generated": "2026-11-03T18:46:24+00:00",
+ "generator": "scripts/wiki_game_history.py",
+ "games": {
+  "terraria": {
+   "title": "泰拉瑞亚",
+   "lead": "泰拉瑞亚由 Re-Logic 开发。桌面版与移动版的版本线不同：桌面版由 Re-Logic 自己维护，移动版 1.3 起由 DR Studios 移植，因此同一个大版本在两边的构建号与发布日期都不一样。",
+   "sources": [
+    {
+     "label": "Terraria Wiki（官方）",
+     "url": "https://terraria.wiki.gg/zh/"
+    },
+    {
+     "label": "Steam 商店页",
+     "url": "https://store.steampowered.com/app/105600/"
+    }
+   ],
+   "note": "Google Play 与 Amazon 商店的移动版更新路径不同（版本号、日期都不一样），这里收录 Google Play 版本号，Amazon / iOS 版本号放在条目说明里。主机版（Xbox / PlayStation / Switch）更新记录见 Wiki「主机版版本历史」。",
+   "platforms": [
+    {
+     "key": "desktop",
+     "label": "桌面版（Windows / macOS / Linux）",
+     "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%94%B5%E8%84%91%E7%89%88%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2",
+     "versions": [
+      {
+       "v": "1.4.5.8",
+       "date": "2026-08-24",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.5.8",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.7",
+       "date": "2026-08-20",
+       "name": "修补程序",
+       "notes": [
+        "较大的平衡性更改和 Bug 修复，新增物品。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.5.7",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.6",
+       "date": "2026-03-09",
+       "name": "修补程序",
+       "notes": [
+        "较小的平衡性更改和 Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.5.6",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.5",
+       "date": "2026-02-10",
+       "name": "修补程序",
+       "notes": [
+        "较小的平衡性更改和 Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.5.5",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.4",
+       "date": "2026-02-04",
+       "name": "修补程序",
+       "notes": [
+        "较小的平衡性更改和 Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.5.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.3",
+       "date": "2026-01-30",
+       "name": "修补程序",
+       "notes": [
+        "较小的平衡性更改和 Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.5.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.2",
+       "date": "2026-01-28",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.5.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.1",
+       "date": "2026-01-28",
+       "name": "修补程序",
+       "notes": [
+        "较小的平衡性更改和 Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.5.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.0",
+       "date": "2026-01-27",
+       "name": "Bigger and Boulder",
+       "notes": [
+        "见完整改动日志"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.5.0",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.9",
+       "date": "2022-11-18",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.4.9",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.8.1",
+       "date": "2022-11-11",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.4.8.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.8",
+       "date": "2022-11-10",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.4.8",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.7",
+       "date": "2022-10-24",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.4.7",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.6",
+       "date": "2022-10-21",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.4.6",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.5",
+       "date": "2022-10-07",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.4.5",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.4",
+       "date": "2022-10-04",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.4.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.3",
+       "date": "2022-10-03",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.4.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.2",
+       "date": "2022-09-29",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.4.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.1",
+       "date": "2022-09-28",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.4.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4",
+       "date": "2022-09-28",
+       "name": "爱的付出",
+       "notes": [
+        "大量游戏体验和平衡性调整。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.3.6",
+       "date": "2022-03-01",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.3.6",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.3.5",
+       "date": "2022-02-28",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.3.5",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.3.4",
+       "date": "2022-02-24",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.3.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.3.3",
+       "date": "2022-02-24",
+       "name": "修补程序",
+       "notes": [
+        "针对 的优化；平衡性更改和 bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.3.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.3.2",
+       "date": "2021-11-24",
+       "name": "修补程序",
+       "notes": [
+        "较小的平衡性更改和 Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.3.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.3.1",
+       "date": "2021-11-22",
+       "name": "修补程序",
+       "notes": [
+        "较小的平衡性更改和 Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.3.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.3",
+       "date": "2021-11-18",
+       "name": "以眼还眼：《饥荒联机版》交叉内容更新",
+       "notes": [
+        "Deerclops和拥有《饥荒联机版》的crossover content的Special world seeds。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.2.3",
+       "date": "2021-05-16",
+       "name": "10 周年纪念补丁",
+       "notes": [
+        "Bug 修复和 Celebrationmk10 Special world seeds。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.2.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.2.2",
+       "date": "2021-04-21",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.2.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.2.1",
+       "date": "2021-03-31",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.2.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.2",
+       "date": "2021-03-29",
+       "name": "Steam 创意工坊支持",
+       "notes": [
+        "支持在 Steam 创意工坊上共享资源包和世界文件。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.1.2",
+       "date": "2020-11-10",
+       "name": "修补程序",
+       "notes": [
+        "较小的平衡性调整和 bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.1.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.1.1",
+       "date": "2020-10-14",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.1.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.1",
+       "date": "2020-10-13",
+       "name": "为旅程画上圆满的句号",
+       "notes": [
+        "旅程的终点时装竞赛套装、credits、Princess NPC、Flinx Staff、Flinx Fur Coat，对accessory的平衡性调整。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.0.5",
+       "date": "2020-06-04",
+       "name": "修补程序",
+       "notes": [
+        "Torch God迷你事件，许多优化，bug 修复，和对于游戏崩溃的修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.0.5",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.0.4",
+       "date": "2020-05-23",
+       "name": "修补程序",
+       "notes": [
+        "性能优化，内存管理修复，对于 bug 和游戏崩溃的修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.0.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.0.3",
+       "date": "2020-05-20",
+       "name": "修补程序",
+       "notes": [
+        "对item drops，recipes，美术，植物生长速度和药水效果进行了很多小的修改。同时移除了因放置错误火把造成的运气减益。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.0.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.0.2",
+       "date": "2020-05-16",
+       "name": "修补程序",
+       "notes": [
+        "较小的平衡性调整和 bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.0.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.0.1",
+       "date": "2020-05-16",
+       "name": "Journey's End",
+       "notes": [
+        "Journey Mode、Master Mode、Bestiary、Golf、Pylons、Graveyard、Oasis、Queen Slime、Empress of Light。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.4.0.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.5.3",
+       "date": "2017-04-25",
+       "name": "修补程序",
+       "notes": [
+        "Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.5.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.5.2",
+       "date": "2017-04-21",
+       "name": "修补程序",
+       "notes": [
+        "视觉效果提升，对于中文玩家的字体优化，Bug 修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.5.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.5.1",
+       "date": "2017-04-19",
+       "name": "修补程序",
+       "notes": [
+        "bug 和对于游戏崩溃的修复。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.5.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.5",
+       "date": "2017-04-19",
+       "name": "润色和修复",
+       "notes": [
+        "4K 支持、缩放和 UI 比例调整、更多更好的翻译、gold、crystal、dynasty furniture，Redigit 回归团队。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.5",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.4.4",
+       "date": "2016-12-06",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.4.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.4.3",
+       "date": "2016-11-18",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.4.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.4.2",
+       "date": "2016-11-17",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.4.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.4.1",
+       "date": "2016-11-16",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.4.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.4",
+       "date": "2016-11-15",
+       "name": "Dungeon Defenders II Crossover content更新",
+       "notes": [
+        "新water面effects，新的“塔防”事件，和来自Dungeon Defenders 2的crossover content。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.3.3",
+       "date": "2016-10-03",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.3.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.3.2",
+       "date": "2016-09-13",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.3.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.3.1",
+       "date": "2016-09-11",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.3.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.3",
+       "date": "2016-09-09",
+       "name": "Desert更新",
+       "notes": [
+        "Underground Desert更新、Sandstorm、Sand Elemental。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.2.1",
+       "date": "2016-07-21",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.2.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.2",
+       "date": "2016-07-20",
+       "name": "Party更新",
+       "notes": [
+        "Chestitem整理，在世界创建时选择Corruption或Crimson（Wall of Flesh后 )，更多party装饰品。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.1.1",
+       "date": "2016-05-31",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.1.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.1",
+       "date": "2016-05-22",
+       "name": "Wiring更新",
+       "notes": [
+        "显著升级了wiring和Mechanism，添加了controller支持。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.0.8",
+       "date": "2015-08-12",
+       "name": "Mac 和 Linux 正式版",
+       "notes": [
+        "现在官方支持 Mac 和 Linux 系统。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.0.8",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.0.7",
+       "date": "2015-07-23",
+       "name": "Mac 和 Linux 测试版",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.0.7",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.0.6",
+       "date": "2015-07-20",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.0.6",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.0.5",
+       "date": "2015-07-13",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.0.5",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.0.4",
+       "date": "2015-07-09",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.0.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.0.3",
+       "date": "2015-07-02",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.0.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.0.2",
+       "date": "2015-06-03",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.0.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.0.1",
+       "date": "2015-06-03",
+       "name": "Terraria 1.3",
+       "notes": [
+        "Lunar Events、Martian Madness、Granite Cave、Marble Cave、Underground Desert、Expert Mode、Achievements、Yoyos。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.3.0.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.4.1",
+       "date": "2014-05-15",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.4.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.4",
+       "date": "2014-05-08",
+       "name": "新内容",
+       "notes": [
+        "Fishing、Minecart、Duke Fishron、和来自《Pixel Piracy》的crossover content。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.3.1",
+       "date": "2014-02-18",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.3.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.3",
+       "date": "2014-02-13",
+       "name": "新内容",
+       "notes": [
+        "Traveling Merchant、Stylist。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.2",
+       "date": "2013-12-20",
+       "name": "Christmas更新",
+       "notes": [
+        "Frost Moon。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.1.2",
+       "date": "2013-10-31",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.1.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.1.1",
+       "date": "2013-10-26",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.1.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.1",
+       "date": "2013-10-25",
+       "name": "Halloween更新",
+       "notes": [
+        "Halloween、Pumpkin Moon。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.0.3.1",
+       "date": "2013-10-09",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.0.3.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.0.3",
+       "date": "2013-10-09",
+       "name": "修补程序",
+       "notes": [
+        "几种新的Enemy Banners，更多Furniture。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.0.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.0.2",
+       "date": "2013-10-03",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.0.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.0.1",
+       "date": "2013-10-01",
+       "name": "修补程序",
+       "notes": [
+        "|-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2.0.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.2",
+       "date": "2013-09-30",
+       "name": "Terraria 1.2",
+       "notes": [
+        "The Crimson、Rain、Queen Bee、Chlorophyte、Plantera、Jungle Temple、Golem、Pirate Invasion。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.1.2",
+       "date": "2012-01-17",
+       "name": "修补程序",
+       "notes": [
+        "多语言支持。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.1.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.1.1",
+       "date": "2011-12-15",
+       "name": "Christmas更新",
+       "notes": [
+        "Frost Legion、Santa Claus、Snow biome。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.1.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.1",
+       "date": "2011-12-01",
+       "name": "Terraria 1.1",
+       "notes": [
+        "Hardmode、Wing、Mechanism、Items modifier、Mechanical Bosses。"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.0.6.1",
+       "date": "2011-08-17",
+       "name": "| Sawmill。",
+       "notes": [
+        "-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.0.6.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.0.6",
+       "date": "2011-08-09",
+       "name": "| Critical hit、Damage types。",
+       "notes": [
+        "-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.0.6",
+       "channel": "release"
+      },
+      {
+       "v": "1.0.5",
+       "date": "2011-06-23",
+       "name": "| Potions。",
+       "notes": [
+        "-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.0.5",
+       "channel": "release"
+      },
+      {
+       "v": "1.0.4",
+       "date": "2011-06-10",
+       "name": "| King Slime、Vanity items。",
+       "notes": [
+        "-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.0.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.0.3",
+       "date": "2011-06-02",
+       "name": "| Tim。",
+       "notes": [
+        "-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.0.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.0.2",
+       "date": "2011-05-23",
+       "name": "| Sticky Bomb。",
+       "notes": [
+        "-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.0.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.0.1",
+       "date": "2011-05-17",
+       "name": "|",
+       "notes": [
+        "-"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.0.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.0",
+       "date": "2011-05-16",
+       "name": "官方发布",
+       "notes": [
+        "|}"
+       ],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/1.0",
+       "channel": "release"
+      }
+     ]
+    },
+    {
+     "key": "mobile",
+     "label": "移动版（Android · Google Play）",
+     "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2",
+     "versions": [
+      {
+       "v": "1.4.5.8.1",
+       "date": "2026-09-17",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "Amazon": "1.4.5.8.6"
+       }
+      },
+      {
+       "v": "1.4.5.8.5",
+       "date": "2026-09-03",
+       "name": "修补程序 · （等价于Desktop 1.4.5.8）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.4.5.8"
+       }
+      },
+      {
+       "v": "1.4.5.6.4",
+       "date": "2026-03-26",
+       "name": "修补程序 · （等价于Desktop 1.4.5.6）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.5.5.3",
+       "date": "2026-03-16",
+       "name": "修补程序 · （等价于Desktop 1.4.5.5）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.5.4",
+       "date": "2026-02-12",
+       "name": "修补程序 · （等价于Desktop 1.4.5.4）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.5.2",
+       "date": "2026-02-05",
+       "name": "修补程序 · （等价于Desktop 1.4.5.2）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.5",
+       "date": "2026-01-27",
+       "name": "大石所趋 · （等价于Desktop 1.4.5.0）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.4.9.8",
+       "date": "2025-10-01",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.4.9.6",
+       "date": "2024-10-22",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.4.9.5",
+       "date": "2023-10-02",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.4.9.2",
+       "date": "2023-05-02",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.4.9",
+       "date": "2022-11-30",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.4.5",
+       "date": "2022-10-27",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.4.1",
+       "date": "2022-10-03",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.4",
+       "date": "2022-09-28",
+       "name": "爱的付出 · （等价于Desktop 1.4.4）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.3.2.3",
+       "date": "2022-05-23",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.3.2.2",
+       "date": "2022-05-05",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.3.2.1",
+       "date": "2022-04-29",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.3.2.0",
+       "date": "2022-04-27",
+       "name": "1.4.1–1.4.3 同步更新 · （等价于Desktop 1.4.3.2）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.0.5.2.1",
+       "date": "2020-12-04",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.0.5.2",
+       "date": "2020-12-01",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.0.5.1",
+       "date": "2020-11-03",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.4.0.5.0",
+       "date": "2020-10-20",
+       "name": "1.4.0.5 和 1.3.1 至 1.3.5 内容更新 · （等价于Desktop 1.4.0.5）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.3.0.7.9",
+       "date": "2020-04-28",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.3.0.7.8.1",
+       "date": "2020-04-07",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.3.0.7.8",
+       "date": "2020-04-06",
+       "name": "手柄和自定义更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.3.0.7.7",
+       "date": "2019-11-07",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.3.0.7.6",
+       "date": "2019-11-06",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.3.0.7.5",
+       "date": "2019-10-03",
+       "name": "修补程序 · 重置 + 1.3 更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.3.0.7.4",
+       "date": "2019-09-19",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.3.0.7.3",
+       "date": "2019-09-17",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.3.0.7.2",
+       "date": "2019-09-09",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.3.0.7.1",
+       "date": "2019-08-29",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.3.0.7",
+       "date": "2019-08-27",
+       "name": "重置 + 1.3 更新 · （等价于Desktop 1.3.0.7）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.2.12785",
+       "date": "2016-08-03",
+       "name": "“关键问题”更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "Amazon": "1.2.12801"
+       }
+      },
+      {
+       "v": "1.2.12772",
+       "date": "2016-07-25",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.2.12773",
+        "Windows Phone": "1.2.4.3",
+        "Amazon": "1.2.12000"
+       }
+      },
+      {
+       "v": "1.2.12715",
+       "date": "2016-06-17",
+       "name": "备份更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.2.11979",
+       "date": "2016-04-20",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.2.11971"
+       }
+      },
+      {
+       "v": "1.2.11965",
+       "date": "2016-03-23",
+       "name": "Easter更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.2.11964"
+       }
+      },
+      {
+       "v": "1.2.11580",
+       "date": "2016-02-08",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.2.11587"
+       }
+      },
+      {
+       "v": "1.2.11333",
+       "date": "2016-01-05",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.2.11212",
+       "date": "2015-12-09",
+       "name": "1.2.4 更新 · （等价于Desktop 1.2.4.1）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "Windows Phone": "1.2.4"
+       }
+      },
+      {
+       "v": "1.2.10333",
+       "date": "2015-08-25",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.2.10299"
+       }
+      },
+      {
+       "v": "1.2.10177",
+       "date": "2015-08-21",
+       "name": "平衡性更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.2.10061",
+        "Amazon": "1.2.17028"
+       }
+      },
+      {
+       "v": "1.2.8798",
+       "date": "2015-05-26",
+       "name": "“关键问题”更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.2.8631"
+       }
+      },
+      {
+       "v": "1.2.7899",
+       "date": "2015-04-09",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.2.7642",
+       "date": "2015-03-26",
+       "name": "1.2 补充",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.2.7901"
+       }
+      },
+      {
+       "v": "1.2.6787",
+       "date": "2015-01-13",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.2.6715",
+       "date": "2014-12-10",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.2.6667",
+       "date": "2014-12-03",
+       "name": "1.2 更新 · （等价于Desktop 1.2.1.2）",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.2.6508",
+        "Amazon": "1.2.7122",
+        "Windows Phone": "1.2.0"
+       }
+      },
+      {
+       "v": "1.1.6299",
+       "date": "2014-11-06",
+       "name": "Thanksgiving更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.1.6255",
+        "Amazon": "1.1.6292"
+       }
+      },
+      {
+       "v": "1.1.5960",
+       "date": "2014-09-23",
+       "name": "Oktoberfest更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.1.5933",
+        "Amazon": "1.1.5934"
+       }
+      },
+      {
+       "v": "1.1.5822",
+       "date": "2014-09-04",
+       "name": "Hardmode更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.1.5536"
+       }
+      },
+      {
+       "v": "1.1.92",
+       "date": "2014-03-25",
+       "name": "Easter更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.1.91"
+       }
+      },
+      {
+       "v": "1.1.92",
+       "date": "2014-03-22",
+       "name": "St. Patrick's Day}更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.1.9"
+       }
+      },
+      {
+       "v": "1.1.8",
+       "date": "2014-02-13",
+       "name": "Valentine's Day更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.0.6",
+       "date": "2013-12-19",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.0.5",
+       "date": "2013-12-12",
+       "name": "Christmas更新",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "iOS": "1.1.5"
+       }
+      },
+      {
+       "v": "1.0.2",
+       "date": "2013-10-03",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.0.1",
+       "date": "2013-09-25",
+       "name": "修补程序",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {}
+      },
+      {
+       "v": "1.0.0",
+       "date": "2013-09-13",
+       "name": "最初发布",
+       "notes": [],
+       "wiki": "https://terraria.wiki.gg/zh/wiki/%E7%A7%BB%E5%8A%A8%E7%89%88%E7%89%88%E6%9C%AC%E8%AE%B0%E5%BD%95",
+       "channel": "release",
+       "also": {
+        "Amazon": "1.0.1"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "stardew": {
+   "title": "星露谷物语",
+   "lead": "星露谷物语由 ConcernedApe 独立开发。PC 版是版本基准：主机版与移动版的每个版本都标注「相当于 PC 的哪个版本」，因此这里把 PC 版一并列出，方便对照 Android 包缺少哪些改动。",
+   "sources": [
+    {
+     "label": "Stardew Valley Wiki（官方）",
+     "url": "https://zh.stardewvalleywiki.com/"
+    },
+    {
+     "label": "官方更新公告（stardewvalley.net）",
+     "url": "https://www.stardewvalley.net/"
+    }
+   ],
+   "note": "移动版的 Android 与 iOS 更新节奏不完全一致，这里只收 Android；主机版（PS4 / Xbox / Switch / Vita）记录见 Wiki「主机版历史」。",
+   "platforms": [
+    {
+     "key": "android",
+     "label": "Android（Google Play）",
+     "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2",
+     "note": "官方 Wiki 的 Android 列表最后一条是 **1.6.9（2024-11-04）**，但同一页面顶部写着「Android 最新版本相当于 PC 1.6.15」——1.6.10 之后 Android 没有单独的更新条目，改动并入 PC 版本，对照请看下面的 PC 段。本站下载页的 1.6.15.x 属于这类构建号。",
+     "versions": [
+      {
+       "v": "1.6.9",
+       "date": "2024-11-04",
+       "name": "",
+       "notes": [
+        "包括 1.6、1.6.1 版本、1.6.2 版本、1.6.3 版本、1.6.4 版本、1.6.5 版本、1.6.6 版本"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.6.9",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.6.52",
+       "date": "2023-10-30",
+       "name": "",
+       "notes": [
+        "针对 Google Play Pass（Google Play 中的一种通行证）进行了更改。",
+        "修复了游戏手柄崩溃的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.5.6.52",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.6.39",
+       "date": "2023-02-20",
+       "name": "",
+       "notes": [
+        "新增了开关界面闪光特效的选项。",
+        "新增了调整工具栏字体大小的选项。",
+        "优化了平板上界面显示的比例。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.5.6.39",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.6.37",
+       "date": "2023-01-18",
+       "name": "",
+       "notes": [
+        "优化了前往鹦鹉特快平台的寻路机制。",
+        "修复了夜间结算存档时，职业选择重复出现的问题。",
+        "修复了上述问题导致的生命值出现异常的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.5.6.37",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.6.36",
+       "date": "2023-01-13",
+       "name": "",
+       "notes": [
+        "补充了一些缺失的中文翻译。",
+        "收集品选项卡不再展示所有的传说鱼类二代和椰林飘香。",
+        "（iOS）优化了部分设备上的 UI 缩放。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.5.6.36",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.6.35",
+       "date": "2023-01-11",
+       "name": "",
+       "notes": [
+        "若玩家处于史莱姆屋内，不再自动选中武器攻击史莱姆。",
+        "修复了取消附魔操作导致武器消失的问题。",
+        "现在可以正常在地毯上放置家具了。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.5.6.35",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.6.34",
+       "date": "2023-01-09",
+       "name": "",
+       "notes": [
+        "隐藏控制按钮的选项现已可以正常使用。",
+        "现在使用工具时上马不会导致卡住了。",
+        "关闭菜单后，星之果实不再自动进入背包。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.5.6.34",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.6.33",
+       "date": "2023-01-08",
+       "name": "",
+       "notes": [
+        "新增了一键整理到箱子的按钮。",
+        "破坏补给箱时能自动选取正确的工具。",
+        "修复了紧急加载后祝尼魔屋导致的崩溃问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.5.6.33",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.6.32",
+       "date": "2023-01-07",
+       "name": "",
+       "notes": [
+        "重新添加了中文。",
+        "现在下马更加容易了。",
+        "增大了韩语字体的大小。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.5.6.32",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.6.31",
+       "date": "2023-01-06",
+       "name": "",
+       "notes": [
+        "更新内容参见 1.5、1.5.1、1.5.2、1.5.3、1.5.4、1.5.5和 1.5.6（不包括多人模式）。",
+        "此版本尚未添加中文。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.5.6.31",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.151",
+       "date": "2021-01-14",
+       "name": "",
+       "notes": [
+        "修复了潘姆的九心事件。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.5.151",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.150",
+       "date": "2021-01-04",
+       "name": "",
+       "notes": [
+        "修复了收藏页古物显示的问题。",
+        "修复了矮人语教程不在钱包内显示的问题。",
+        "修复了矿井外某片区域不可到达的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.5.150",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.148",
+       "date": "2020-10-26",
+       "name": "",
+       "notes": [
+        "修复了部分机型出现的信箱问题。",
+        "兼容安卓10。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.5.148",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.145",
+       "date": "2020-03-23",
+       "name": "",
+       "notes": [
+        "修复了博物馆捐赠古物丢失问题。",
+        "修复了在游戏后期得到防风草种子会使已经完成的任务重新开始的问题。",
+        "其他bug的修复。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.5.145",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.144",
+       "date": "2020-03-06",
+       "name": "",
+       "notes": [
+        "水平工具栏的修复。",
+        "图纸的修复。",
+        "Misc bug的修复。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.5.144",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.142",
+       "date": "2020-03-03",
+       "name": "",
+       "notes": [
+        "星露谷展会钓鱼的修复。",
+        "Bug修复。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.5.142",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.141",
+       "date": "2020-02-29",
+       "name": "",
+       "notes": [
+        "修复了祝尼魔小屋出现的bug。",
+        "其他bug的修复。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.5.141",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.140",
+       "date": "2020-02-26",
+       "name": "",
+       "notes": [
+        "修复了离婚后游戏崩溃。",
+        "修复了大鸡舍及谷仓的自动喂食出现的问题。",
+        "修复了与五彩碎片染色相关的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.5.140",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.139",
+       "date": "2020-02-21",
+       "name": "",
+       "notes": [
+        "修复了触屏移动、摇杆移动、及按键移动的问题。",
+        "修复了家具移动的问题。",
+        "修复了重复挥舞工具的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.5.139",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.138",
+       "date": "2020-02-19",
+       "name": "",
+       "notes": [
+        "修复了使用虚拟手柄放置物品和移动家具的问题。",
+        "修复了桌上放置物品的bug。",
+        "修复了在使用虚拟摇杆时会误触到物品栏的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.5.138",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5.137",
+       "date": "2020-02-14",
+       "name": "",
+       "notes": [
+        "包括 1.4.5的改变。",
+        "修复了小屏幕触发对话出现的文本兼容问题。",
+        "修复了博物馆移动物品的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.5.137",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.136",
+       "date": "",
+       "name": "",
+       "notes": [
+        "修复了各种bug"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.4.136",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4.131",
+       "date": "2020-02-10",
+       "name": "",
+       "notes": [
+        "包括 1.4， 1.4.1 版本， 1.4.2 版本， 1.4.3 版本， 及1.4.4 版本的改变。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.4.4.131",
+       "channel": "release"
+      },
+      {
+       "v": "1.331",
+       "date": "2019-08-23",
+       "name": "",
+       "notes": [
+        "兼容Pixel3。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.331",
+       "channel": "release"
+      },
+      {
+       "v": "1.33",
+       "date": "2019-08-12",
+       "name": "",
+       "notes": [
+        "修复了韩国地区出现的问题。",
+        "修复bug。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.33",
+       "channel": "release"
+      },
+      {
+       "v": "1.322",
+       "date": "2019-08-09",
+       "name": "",
+       "notes": [
+        "修复了 Google 商店正版校验出错的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.322",
+       "channel": "release"
+      },
+      {
+       "v": "1.31",
+       "date": "2019-07-18",
+       "name": "",
+       "notes": [
+        "修复了华为手机运行游戏时出现的问题。",
+        "修复bug。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.31",
+       "channel": "release"
+      },
+      {
+       "v": "1.28",
+       "date": "2019-06-24",
+       "name": "",
+       "notes": [
+        "支持更多外接手柄。",
+        "修复bug。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.28",
+       "channel": "release"
+      },
+      {
+       "v": "1.25",
+       "date": "2019-05-02",
+       "name": "",
+       "notes": [
+        "修复了外接手柄出现的问题。",
+        "你可以给马儿戴帽子了。",
+        "可以在室外孵化史莱姆。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.25",
+       "channel": "release"
+      },
+      {
+       "v": "1.24",
+       "date": "2019-04-29",
+       "name": "",
+       "notes": [
+        "兼容安卓6.0及以后的版本。",
+        "修复了音乐播放问题。",
+        "修复了存储时游戏崩溃的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.24",
+       "channel": "release"
+      },
+      {
+       "v": "1.23",
+       "date": "2019-04-26",
+       "name": "",
+       "notes": [],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.23",
+       "channel": "release"
+      },
+      {
+       "v": "1.22",
+       "date": "2019-04-25",
+       "name": "",
+       "notes": [],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.22",
+       "channel": "release"
+      },
+      {
+       "v": "1.21",
+       "date": "2019-04-25",
+       "name": "",
+       "notes": [],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.21",
+       "channel": "release"
+      },
+      {
+       "v": "1.20",
+       "date": "2019-04-24",
+       "name": "",
+       "notes": [
+        "钓鱼小游戏现在显示完美提示了。",
+        "现在可以使用外接手柄打开更多菜单页面。",
+        "修复了旧版系统上颜色导致的崩溃问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.20",
+       "channel": "release"
+      },
+      {
+       "v": "1.19",
+       "date": "2019-04-12",
+       "name": "",
+       "notes": [
+        "现在可以使用外接手柄打开商店菜单以及背包了。",
+        "修复了一些导致音乐无法正常播放的问题。",
+        "通知信息现在显示在屏幕上的水平工具栏上。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.19",
+       "channel": "release"
+      },
+      {
+       "v": "1.17",
+       "date": "2019-04-07",
+       "name": "",
+       "notes": [
+        "改进外接手柄的游戏体验。",
+        "修复了出货箱菜单文本显示的问题。",
+        "缩小动物显示的菜单界面大小。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.17",
+       "channel": "release"
+      },
+      {
+       "v": "1.16",
+       "date": "2019-04-05",
+       "name": "",
+       "notes": [],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.16",
+       "channel": "release"
+      },
+      {
+       "v": "1.15",
+       "date": "2019-04-03",
+       "name": "",
+       "notes": [
+        "修复了部分变色物品的颜色显示问题。",
+        "其他错误修复。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.15",
+       "channel": "release"
+      },
+      {
+       "v": "1.14",
+       "date": "2019-03-28",
+       "name": "",
+       "notes": [
+        "修复了移除小桶时出现的问题。",
+        "修复了幻想棋盘游戏的触控问题。",
+        "获得物品后，提示信息可以显示物品数量了。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.14",
+       "channel": "release"
+      },
+      {
+       "v": "1.13",
+       "date": "2019-03-26",
+       "name": "",
+       "notes": [
+        "修复了游戏内音效回声出现异常的问题。",
+        "修复了游戏出现闪屏或黑屏的问题。",
+        "提高稳定性。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.13",
+       "channel": "release"
+      },
+      {
+       "v": "1.12",
+       "date": "2019-03-22",
+       "name": "",
+       "notes": [
+        "修复了输入文本点击不了的问题。",
+        "修复了工具提示显示错位的问题。",
+        "修复了收集包完成后界面绘制的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.12",
+       "channel": "release"
+      },
+      {
+       "v": "1.11",
+       "date": "2019-03-22",
+       "name": "",
+       "notes": [
+        "修复了自动攻击弹出窗口的问题。",
+        "修复了社区中心菜单显示的问题。",
+        "其他错误修复。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.11",
+       "channel": "release"
+      },
+      {
+       "v": "1.10",
+       "date": "2019-03-21",
+       "name": "",
+       "notes": [
+        "修复了工具栏大小无法调整的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.10",
+       "channel": "release"
+      },
+      {
+       "v": "1.09",
+       "date": "2019-03-21",
+       "name": "",
+       "notes": [
+        "修复了社区中心收集包菜单显示的问题。",
+        "修复了动物信息菜单显示的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.09",
+       "channel": "release"
+      },
+      {
+       "v": "1.08",
+       "date": "2019-03-21",
+       "name": "",
+       "notes": [
+        "修复了物品数量不显示的问题。",
+        "修正出货箱关闭按钮的显示位置。",
+        "重新设计了对话框的大小。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.08",
+       "channel": "release"
+      },
+      {
+       "v": "1.07",
+       "date": "2019-03-15",
+       "name": "",
+       "notes": [
+        "菜单显示大小优化。",
+        "添加调整工具栏大小的滑块。",
+        "添加调整日期时间栏大小的滑块。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.07",
+       "channel": "release"
+      },
+      {
+       "v": "1.06",
+       "date": "2019-03-21",
+       "name": "",
+       "notes": [],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.06",
+       "channel": "release"
+      },
+      {
+       "v": "1.05",
+       "date": "2019-03-21",
+       "name": "",
+       "notes": [],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.05",
+       "channel": "release"
+      },
+      {
+       "v": "1.04",
+       "date": "2019-03-15",
+       "name": "",
+       "notes": [
+        "提高游戏稳定性。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.04",
+       "channel": "release"
+      },
+      {
+       "v": "1.03",
+       "date": "2019-03-15",
+       "name": "",
+       "notes": [
+        "修复了游戏在星期天（游戏内）崩溃的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.03",
+       "channel": "release"
+      },
+      {
+       "v": "1.02",
+       "date": "2019-03-14",
+       "name": "",
+       "notes": [
+        "修复了开启游戏时可能崩溃的问题。",
+        "修复了人物出现在错误的地方以及行为不正常的问题。",
+        "修复了音频导致的崩溃。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.02",
+       "channel": "release"
+      },
+      {
+       "v": "1.01",
+       "date": "2019-03-14",
+       "name": "",
+       "notes": [
+        "修复了应用权限导致的打开游戏出现的崩溃。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.01",
+       "channel": "release"
+      },
+      {
+       "v": "1.0",
+       "date": "2019-03-13",
+       "name": "",
+       "notes": [
+        "在玩家退出游戏或改变位置时自动存档，即使游戏被强制退出或卸载依然可以继续之前的游戏进度，节日期间或播放过场动画时不会生效。",
+        "自动存档产生的存档不能被其他平台读取，若要转移存档，必须在游戏内睡觉，开始新的一天，存档才可以在其他平台继续使用。",
+        "在选项卡中添加存档按钮以便随时存档。（详见 手机存档）"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%A7%BB%E5%8A%A8%E7%89%88%E5%8E%86%E5%8F%B2#1.0",
+       "channel": "release"
+      }
+     ]
+    },
+    {
+     "key": "pc",
+     "label": "PC（Steam / GOG，版本基准）",
+     "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2",
+     "versions": [
+      {
+       "v": "1.6.15",
+       "date": "2024-12-20",
+       "name": "平衡性改进、游玩便利性改动、游戏玩法修复",
+       "notes": [
+        "平衡性改进：传说鱼类鱼塘现在产出鱼籽更频繁，其平均日收益更高。",
+        "游玩便利性改动：性能优化。",
+        "游玩便利性改动：在冰箱和迷你冰箱界面中添加了祝尼魔收集包按钮。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.15",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.14",
+       "date": "2024-11-12",
+       "name": "改动、针对模组玩家的改动、针对模组开发者的改动",
+       "notes": [
+        "改动：添加了几种配偶无对话时的互动反应。",
+        "改动：现在手持鱼类时/在鱼塘钓鱼时晕倒不会丢失相应鱼类。",
+        "改动：修复了动物产品总为普通品质的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.14",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.13",
+       "date": "2024-11-08",
+       "name": "平衡性改动、视觉改动、问题修复",
+       "notes": [
+        "平衡性改动：修复了鱼塘中的传说之鱼比预期收益高的问题。",
+        "视觉改动：放置在传说之鱼鱼塘的牌子不再在鱼下面显示“1”。",
+        "问题修复：修复了村民无法走过海滩桥梁的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.13",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.12",
+       "date": "2024-11-07",
+       "name": "游戏性改动、问题修复、面向模组玩家的修复",
+       "notes": [
+        "游戏性改动：现在挖掘特殊地块、使用淘盘、收获姜以及砍伐树枝能给予采集经验了。",
+        "游戏性改动：现在砍伐树木和树桩获得的采集经验略微增加。",
+        "游戏性改动：现在桑迪在商店售卖基础裤子。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.12",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.11",
+       "date": "2024-11-06",
+       "name": "问题修复、针对模组玩家的变化",
+       "notes": [
+        "问题修复：可能修复了农场动物在罕见情况下消失的问题。",
+        "问题修复：修复了村民在玩家第一次向他们对话时没有反应的问题。",
+        "问题修复：修复了无法使用手柄从墙上摘取家具的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.11",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.10",
+       "date": "2024-11-04",
+       "name": "问题修复及变化、面对模组制作者的修复",
+       "notes": [
+        "问题修复及变化：改进了部分法语和俄语的翻译。",
+        "问题修复及变化：修复了当失物商店出售潘妮14颗心事件物品时导致的崩溃问题。",
+        "问题修复及变化：修复了在1.6.9版本中新创建的草原农场里没有鸡的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.10",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.9",
+       "date": "2024-11-04",
+       "name": "新内容与功能、平衡性调整、生活质量更新",
+       "notes": [
+        "新内容与功能：如果丢失了无法再次找到的物品，一位新朋友会出现在秘密森林中，可以帮玩家找回它（需要付费）。",
+        "新内容与功能：现在玩家可以将传说鱼放入鱼塘，每个鱼塘最多只能放置一条传说鱼，并且会生产传说鱼籽。每条鱼都有独特的水色。",
+        "新内容与功能：现在玩家可以在任何允许家具放置的建筑物内放置床铺并休息。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.9",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.8",
+       "date": "2024-04-28",
+       "name": "问题修复",
+       "notes": [
+        "问题修复：修复了 1.6.7 中村民进入海滩度假村更衣室会导致游戏崩溃的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.8",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.7",
+       "date": "2024-04-27",
+       "name": "问题修复",
+       "notes": [
+        "问题修复：修复了玩家无法向皮埃尔提交丢失的存货单的问题。",
+        "问题修复：修复了部分机器和沙漠节的逻辑在 Linux/MacOS 系统上不能正确执行的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.7",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.6",
+       "date": "2024-04-26",
+       "name": "游戏性和平衡性改动、翻译和本地化改动、问题修复",
+       "notes": [
+        "游戏性和平衡性改动：蜂房可以采集花盆里的花蜜了。",
+        "游戏性和平衡性改动：冻土层不再出现矿车。",
+        "游戏性和平衡性改动：黄金时钟可以手动开启或关闭了。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.6",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.5",
+       "date": "2024-04-20",
+       "name": "问题修复",
+       "notes": [
+        "问题修复：修正了在某些情况下加载黑暗矿井时的崩溃问题。",
+        "问题修复：损坏的村民NPC（通常是由于移除了模组）现在在加载时会被删除。他们会在被重新添加到数据中时重生。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.5",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.4",
+       "date": "2024-04-18",
+       "name": "新内容和功能、视觉改进、翻译更改",
+       "notes": [
+        "新内容和功能：添加了 20 个新的“备用”矿井布局，这些布局可以在到达矿井底部后开始出现。",
+        "新内容和功能：添加了 20 个新的火山矿井布局，这些布局可以在玩家解锁火山口和火山入口之间的快捷方式后出现。",
+        "新内容和功能：添加了鱼的狂潮。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.3",
+       "date": "2024-03-27",
+       "name": "新内容和新特性、平衡性调整、游玩体验改善",
+       "notes": [
+        "新内容和新特性：玩家现在可以在升级工具的期间使用克林特的商店和破开晶球服务。",
+        "新内容和新特性：添加了科罗布斯的肖像。",
+        "新内容和新特性：在第一年的万灵节里添加了矿车捷径。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.2",
+       "date": "2024-03-21",
+       "name": "问题修复",
+       "notes": [
+        "问题修复：修复了威利鱼竿的问题。",
+        "问题修复：修复了茶的贴图显示异常的问题。",
+        "问题修复：修复了葡萄牙语下夏威夷宴会出错的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.6.1",
+       "date": "2024-03-19",
+       "name": "Bug fixes",
+       "notes": [
+        "修复了德语环境下关于蛋的任务的文本（防止对新玩家的误导）。",
+        "避免了动物数量少时点击动物标签页滚动条而导致的崩溃。",
+        "避免了祝尼魔收获时导致的存档崩溃。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.6",
+       "date": "2024-03-19",
+       "name": "新内容和特性、游戏美术优化、多人游戏变更",
+       "notes": [
+        "新内容和特性：增加了新的节日和活动：",
+        "新内容和特性：沙漠节是春天的一个为期三天的活动，修理好巴士后可以前往。",
+        "新内容和特性：两个迷你钓鱼节日：鳟鱼大赛和鱿鱼节。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.6",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.6",
+       "date": "2021-12-21",
+       "name": "生活质量变更、问题修复、内部改动",
+       "notes": [
+        "生活质量变更：在使用多显示器时，游戏会记住并套用上一次运行时使用的显示器。",
+        "问题修复：可能修复了在夜晚结束时游戏小概率崩溃的问题。",
+        "问题修复：修复了在开始新游戏时部分类型的农场的墙纸和地板没有正确应用的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.5.6",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.5",
+       "date": "2021-11-30",
+       "name": "架构变更、生活质量变更、本地化修复",
+       "notes": [
+        "架构变更：将游戏开发环境从XNA（针对.NET Framework 4.5.2）迁移到了MonoGame（针对.NET 5）。这项变更让游戏紧随潮流，并允许Mod超过4GB的内存。此外为登录Xbox Game Pass提供了支持。玩家可能需要通过Steam或GOG运行原版游戏一次以安装新的运行库。",
+        "架构变更：为Mod作者做了多处内部改动（参见面向Mod作者的迁移指南和已完成的Mod框架更新愿望单）。",
+        "生活质量变更：同时按下 + 可以让玩家一次性购买或制作25件物品了。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.5.5",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.4",
+       "date": "2021-01-22",
+       "name": "功能性改动、多人模式修复、问题修复",
+       "notes": [
+        "功能性改动：在桑迪的生日当天潘姆不再会前往姜岛的度假村。",
+        "功能性改动：现在星露谷展览会商店中的随机物品每种只会出售一份。",
+        "功能性改动：在星露谷展览会商店的随机物品中添加了三倍浓缩咖啡，移除了茶苗。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.5.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.3",
+       "date": "2021-01-15",
+       "name": "平衡性改动、微小改动、多人模式修复",
+       "notes": [
+        "平衡性改动：猫头鹰雕像事件现在更少见了。",
+        "平衡性改动：奇怪的胶囊事件现在每个存档只会触发一次。",
+        "平衡性改动：提高了五彩史莱姆的出现概率(从0.8%提高到了1.2%),同时它们的出现概率现在受到运气的影响了。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.5.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.2",
+       "date": "2021-01-08",
+       "name": "功能性改动、平衡性改动、姜岛修复",
+       "notes": [
+        "功能性改动：“升级”界面不会再定位在画面外，玩家也可以通过按下 ESC 键关闭“升级”菜单。",
+        "平衡性改动：齐瓜现在可以在冬季时于农场生长。",
+        "平衡性改动：现在会追踪工具之前两次的附魔效果，因此在重新进行附魔时，不会应用这两种效果。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.5.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.5.1",
+       "date": "2020-12-24",
+       "name": "功能性改动、多人模式修复、本地化修复",
+       "notes": [
+        "功能性改动：水晶洞穴里的谜题在重复失败后会逐渐降低难度。",
+        "功能性改动：本地分屏玩家现在可以选择云端的角色。这允许玩家可以在本地多人模式继续使用线上多人时的旧角色。",
+        "功能性改动：配偶不会再呆滞地盯着某些地毯样式的家具。这样他们就不会在某些情况下挡住玩家的路了。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.5.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.5",
+       "date": "2020-12-21",
+       "name": "新的世界区域、新的农场特性、其他新内容和特性",
+       "notes": [
+        "新的世界区域：添加了新的地点，对话，事件，小游戏，谜题以及一条多NPC参与的任务线。",
+        "新的世界区域：新NPC雷欧，以及他的背景故事，剧情，事件等等。",
+        "新的世界区域：新的次要角色贝啼, 饕餮青蛙, 和蜗牛教授."
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.5",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.5",
+       "date": "2020-02-11",
+       "name": "问题修复",
+       "notes": [
+        "问题修复：修复了Windows上的一个问题，在该问题中，游戏将不正确初始化并在没有音频的情况下启动。",
+        "问题修复：修正了一个移动的问题，比如火把，会阻止玩家攻击站在附近的敌人。",
+        "问题修复：如果捐赠了古代种子而未拿到配方，可找冈瑟索取。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.4.5",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.4",
+       "date": "2020-01-31",
+       "name": "变化",
+       "notes": [
+        "变化：调整了掉落物的拾取机制，提升了多人游戏中的主机外其他玩家的拾取响应性能，减少拾取掉落物后回弹至原位的情况。",
+        "变化：调整了物品收集方面的代码，以便可以在不使用光标模式的情况下重新填充放置于角落中的机器。",
+        "变化：修复了艾利欧特的14心事件在非英语语言中不能正常运行的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.4.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.3",
+       "date": "2019-12-13",
+       "name": "问题修复",
+       "notes": [
+        "问题修复：修复了在社区中心如果玩家直接关闭菜单而不是取得奖励就可能收集到多份相同的收集包奖励的问题。",
+        "问题修复：修复了当玩家将玩家的宠物命名为NPC名字时会导致玩家的宠物会出现在日历上，并且与NPC生日相同的漏洞。",
+        "问题修复：修复了当使用添加到现有按钮时的物品复制漏洞。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.4.3",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.2",
+       "date": "2019-12-04",
+       "name": "变化、问题修复",
+       "notes": [
+        "变化：恢复了 1.4.1 中引入的物品放置规则，该规则用于防止玩家将地板或火把放置在其配偶的门廊地块上。现在，配偶早上走到门廊时会忽略地板、踢掉火把。",
+        "问题修复：修复了抓娃娃机游戏在Mac上加载时崩溃的问题。",
+        "问题修复：修复了工作台不能从地毯上的宝箱取出物品的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.4.2",
+       "channel": "release"
+      },
+      {
+       "v": "1.4.1",
+       "date": "2019-12-02",
+       "name": "新内容、武器变化、其他变化",
+       "notes": [
+        "新内容：将游戏手柄模式添加到选项菜单中。它有三个值：“自动”(默认)根据最后一次输入在键盘/鼠标之间切换；“强制打开”强制游戏使用游戏手柄逻辑，类似于星露谷物语的早期版本；“强制关闭”禁用游戏手柄，如果玩家只使用键盘/鼠标玩游戏，就可以使用。",
+        "新内容：当玩家在博物馆解锁了稀有稻草人（#7）和稀有稻草人（#8）后，可以在冬季的夜市中买到更多。",
+        "新内容：一些非配偶 NPC 现在有自定义的电影票接受对话(仅英文版)。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.4.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.4",
+       "date": "2019-11-26",
+       "name": "新内容和功能、新增矿洞内容：、多人模式更新",
+       "notes": [
+        "新内容和功能：增加了在游戏后期解锁的电影院，以及相关的内容和功能。",
+        "新内容和功能：为每位配偶增加了14心事件。",
+        "新内容和功能：增加了新的事件和对话（包括卡洛琳的新的爱心事件）。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.4",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.36",
+       "date": "2019-03-01",
+       "name": "变化、问题修复、Beta版本（1.3.35–1.3.36）",
+       "notes": [
+        "变化：新增了法语，韩语，意大利语，匈牙利语和土耳其语支持",
+        "变化：添加了一个新的 \"Credits\" 菜单来替换标题屏幕上的 \"About\" 菜单，并删除了 /credits 聊天命令。",
+        "变化：删除了 Content 目录下不需要的图块文件。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.3.36",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.33",
+       "date": "2019-01-08",
+       "name": "变化、问题修复",
+       "notes": [
+        "变化：有大量光源时的视觉效果更新(如 火把).",
+        "变化：农场有大量动物时的视觉效果更新。",
+        "变化：体力标志更新."
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.3.33",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.32",
+       "date": "2018-11-19",
+       "name": "变化、问题修复、1.3.32 Beta（2018年11月14日）",
+       "notes": [
+        "变化：优化网络性能。",
+        "变化：增加了主机解除服务器暂停的更多方法(按Esc，B，Back)。",
+        "变化：增加了显示聊天框的另一种方式(按控制器上的“右键”按钮)。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.3.32",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.28",
+       "date": "",
+       "name": "",
+       "notes": [],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.3.28",
+       "channel": "release"
+      },
+      {
+       "v": "1.3.27",
+       "date": "2018-08-01",
+       "name": "新内容、平衡性调整、其他改变",
+       "notes": [
+        "新内容：在GOG、Steam或LAN上增加了多人游戏。这包括与自定义表情聊天和新的小屋建筑。",
+        "新内容：增加了夜市活动。",
+        "新内容：添加社区升级到木匠的商店。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.3.27",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.33",
+       "date": "2017-07-10",
+       "name": "变化",
+       "notes": [
+        "变化：修复linux和OSX构建使用单目录内置内容而不是XNA构建的内容（这使得制作MOD更加困难）。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.2.33",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.32",
+       "date": "2017-07-10",
+       "name": "问题修复",
+       "notes": [
+        "问题修复：修复linux版本中损坏的符号链接导致安装失败的问题。",
+        "问题修复：修复如果在使用退出标题后启动新文件，可能会保存文件可能会被覆盖的问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.2.32",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.31",
+       "date": "2017-07-07",
+       "name": "变化、问题修复、本地化修复",
+       "notes": [
+        "变化：帽子的描述里现在增加了它们对应的成就。",
+        "问题修复：修复与使用老虎机有关的崩溃。",
+        "问题修复：修复了一些可能会不必要的增加内存使用量的来源。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.2.31",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.30",
+       "date": "2017-05-12",
+       "name": "变化、问题修复",
+       "notes": [
+        "变化：现在设置窗口模式首选项在所有存档通用了。",
+        "问题修复：修复了游戏在加载存档时切换窗口模式时崩溃问题。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.2.30",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.29",
+       "date": "2017-05-02",
+       "name": "问题修复",
+       "notes": [
+        "问题修复：修复加载存档时的崩溃问题。",
+        "问题修复：修复全屏模式下的崩溃问题。",
+        "问题修复：修复由于击杀怪物任务导致的保存过程中崩溃的问题"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.2.29",
+       "channel": "release"
+      },
+      {
+       "v": "1.2.26",
+       "date": "2017-04-24",
+       "name": "改动、问题修复、1.2.26 测试版",
+       "notes": [
+        "改动：现已支持德语，西班牙语，葡萄牙语（巴西），俄语，日语 和简体中文。",
+        "改动：使用手柄时，光标默认会吸附到菜单按钮上。如果禁用此功能，那么光标将加速移动。",
+        "改动：使用手柄时，按下返回键将跳过可以跳过的部分。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.2.26",
+       "channel": "release"
+      },
+      {
+       "v": "1.11",
+       "date": "2016-10-06",
+       "name": "小型改动、问题修复",
+       "notes": [
+        "小型改动：所有的新农场现在都提供一些钓鱼的机会，不过河边农场仍然更占优势。",
+        "小型改动：河边农场现在可以生成鱼的气泡点和矿石的淘金点。",
+        "小型改动：玩家现在可以在大多数的草地上放置建筑物。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.11",
+       "channel": "release"
+      },
+      {
+       "v": "1.1",
+       "date": "2016-10-03",
+       "name": "可结婚对象、建筑物、农场地图",
+       "notes": [
+        "可结婚对象：可结婚对象现在在农场的室外有一块专属的场地，他们有时会在此处做出一些独特的行为。",
+        "可结婚对象：山姆会在他的小U型池中玩滑板。",
+        "可结婚对象：玛鲁有一个她正在研究的小玩意儿。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.1",
+       "channel": "release"
+      },
+      {
+       "v": "1.07a",
+       "date": "2016-07-29",
+       "name": "改动",
+       "notes": [
+        "改动：提升了对Mac OSX和Linux的兼容性。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.07a",
+       "channel": "release"
+      },
+      {
+       "v": "1.07",
+       "date": "2016-04-04",
+       "name": "游戏性改动、问题修复",
+       "notes": [
+        "游戏性改动：现在在节日期间配偶会有特殊对话（多数情况下如此），而不是通用的一些对话。",
+        "游戏性改动：月光水母起舞时配偶将站在玩家旁边。",
+        "游戏性改动：关于婚后对话：玩家与某人结婚后，与其父母/亲属的对话内容会有轻微的改变。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.07",
+       "channel": "release"
+      },
+      {
+       "v": "1.06",
+       "date": "2016-03-20",
+       "name": "改动",
+       "notes": [
+        "改动：为所有配偶添加了独特的对话。",
+        "改动：配偶现在会在星期一离开农舍。",
+        "改动：提升了大多数动物产品的价值。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.06",
+       "channel": "release"
+      },
+      {
+       "v": "1.051b",
+       "date": "2016-03-17",
+       "name": "改动",
+       "notes": [
+        "改动：修复了物品消失的问题（物品仍然可以被农场里的杂物破坏）。",
+        "改动：小桶现在需要橡树树脂来打造。",
+        "改动：蜂房现在需要枫糖浆来打造。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.051b",
+       "channel": "release"
+      },
+      {
+       "v": "1.051",
+       "date": "2016-03-12",
+       "name": "改动",
+       "notes": [
+        "改动：修复了奇怪的矩形照明问题。",
+        "改动：地板现在可以被炸弹移除。",
+        "改动：玩家可以按下“菜单”键（默认为或）关闭是/否的确认界面。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.051",
+       "channel": "release"
+      },
+      {
+       "v": "1.05",
+       "date": "2016-03-09",
+       "name": "游戏性改动、问题修复",
+       "notes": [
+        "游戏性改动：建议玩到第3年后阅读：爷爷的想法改变了...... 他觉得自己的判断过于严厉。他不会再提及“伟大的荣誉”，并且他的对话将变得温和许多。如果他已经拜访过玩家，查看他的神龛将得到一个新的机会......",
+        "游戏性改动：修复了“丢失的”谢恩事件。",
+        "游戏性改动：将地震改为夏季3日发生...... 以清楚地表明是季节改变杀死了农作物。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.05",
+       "channel": "release"
+      },
+      {
+       "v": "1.04",
+       "date": "2016-03-01",
+       "name": "游戏性改动、问题修复",
+       "notes": [
+        "游戏性改动：在创建角色界面添加一个随机创建按钮",
+        "游戏性改动：罗宾现在售卖“木地板”、“石头地板”和“垫脚石小径”的配方。",
+        "游戏性改动：添加了一个秘密的新方法去修改一件稀有物品。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.04",
+       "channel": "release"
+      },
+      {
+       "v": "1.03",
+       "date": "2016-02-28",
+       "name": "游戏性改动、问题修复",
+       "notes": [
+        "游戏性改动：烹饪菜单现在可以如同搜寻玩家物品栏一样在冰箱中搜寻物品。",
+        "游戏性改动：稻草人的影响范围半径减小至8格。",
+        "游戏性改动：牧场主职业对蛋黄酱和其他制作而成的动物产品的售价加成提高"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.03",
+       "channel": "release"
+      },
+      {
+       "v": "1.02",
+       "date": "2016-02-27",
+       "name": "改动",
+       "notes": [
+        "改动：如果玩家从未收到过宠物，现在可以得到另一个机会。",
+        "改动：玩家睡觉时，游戏会检查玩家是否丢失了任何必要的工具。如果是，它们早上会出现在床边。",
+        "改动：游戏现在在升级当晚可以正确地保存了。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.02",
+       "channel": "release"
+      },
+      {
+       "v": "1.01",
+       "date": "2016-02-26",
+       "name": "改动",
+       "notes": [
+        "改动：修复了获得宠物后睡觉时会发生随机崩溃的问题。",
+        "改动：现在载入时音效音量会正确应用。",
+        "改动：星之果实酒吧不会再销售“错误物品”。"
+       ],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.01",
+       "channel": "release"
+      },
+      {
+       "v": "1.0",
+       "date": "2016-02-26",
+       "name": "",
+       "notes": [],
+       "wiki": "https://zh.stardewvalleywiki.com/%E7%89%88%E6%9C%AC%E5%8E%86%E5%8F%B2#1.0",
+       "channel": "release"
+      }
+     ]
+    }
+   ]
+  },
+  "rustedwarfare": {
+   "title": "铁锈战争",
+   "lead": "铁锈战争（Rusted Warfare）由 Corroding Games 独立开发，Android / Windows / Linux / macOS / iOS 共用同一条版本线（1.15 起支持 iOS 与跨平台联机）。官方没有 Wiki，更新记录以开发者官网 changelog 与 Steam 官方公告为准。",
+   "sources": [
+    {
+     "label": "Corroding Games · 官方 changelog",
+     "url": "https://corrodinggames.com/rusted_warfare_changelog"
+    },
+    {
+     "label": "Steam 官方公告（appid 647960）",
+     "url": "https://store.steampowered.com/news/app/647960"
+    }
+   ],
+   "note": "官方 changelog 只写到 1.14（2020-11-17），1.15 的更新说明只在 Steam 官方公告里，1.15 beta 系列（p1–p8）与正式版的日期分开标注。",
+   "platforms": [
+    {
+     "key": "all",
+     "label": "全平台（Android / Windows / Linux / macOS / iOS）",
+     "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+     "versions": [
+      {
+       "v": "1.15",
+       "date": "2022-11-12",
+       "name": "Rusted Warfare Major Update 1.15",
+       "notes": [
+        "After 10 betas releases this major update is finally out. Thank you for all the help from modders and testers. This update as been focused on major under the hood changes that grea",
+        "Shaders：Team coloring shaders - Used to greatly reduce memory use of mods with large images, and eliminates ",
+        "New unit - Heavy AA Ship"
+       ],
+       "wiki": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6368680725427064396",
+       "channel": "release"
+      },
+      {
+       "v": "1.15p8",
+       "date": "2022-03-16",
+       "name": "v1.15p8 beta released",
+       "notes": [
+        "Over 100% faster rendering on PC with high numbers of small units on screen (runs smooth in tests with 10,000+ units on-screen)",
+        "New unit - Heavy AA Ship (by uber)",
+        "Overrides for each players in multiplayer and advanced skirmish ---AI difficulty can now be set differently for each AI player ---Starting units can b"
+       ],
+       "wiki": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4259848535823016619",
+       "channel": "beta"
+      },
+      {
+       "v": "1.14",
+       "date": "2020-11-17",
+       "name": "",
+       "notes": [
+        "New Unit: Modular Spider：A walking mobile base",
+        "New Turrets and buildings：Lightning Turret T1 & T2 - Upgraded from basic land turret",
+        "Extractor T3 upgrades：Overclock: Much less health. Generates credits faster. Can be reverted back to T3 for a 50% refund."
+       ],
+       "wiki": "https://store.steampowered.com/newshub/app/647960/view/2923359684790597864",
+       "channel": "release"
+      },
+      {
+       "v": "1.13.3",
+       "date": "2019-09-07",
+       "name": "",
+       "notes": [
+        "New map: Many Islands Large (10p)",
+        "New unit: Mech Engineer - T2 Mech builder with AA attack",
+        "Path finding system has 2x-3x better performance and uses less memory."
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "1.13.2",
+       "date": "2019-03-03",
+       "name": "New maps, surrendering, context map pings, new features",
+       "notes": [
+        "Main new features：Surrender voting system added to multiplayer",
+        "Other changes：Units better follow paths and take a wider gap around obstacles when in a group",
+        "Balance：Flame turret damage: 3 -> 4"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "1.13",
+       "date": "2018-12-02",
+       "name": "Huge performance boost, 100s of new modding features, 8 new units, smarter AI, ...",
+       "notes": [
+        "Main new features",
+        "Light gunship：Very weak but cheap",
+        "Underwater probe：weak scout"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "1.12",
+       "date": "2018-02-05",
+       "name": "Workshop modding for units/missions/maps! Also new units, faster performance and extra shrapnel",
+       "notes": [
+        "Steam workshop support for units and maps!",
+        "New Heavy artillery：T2 artillery with limited laser defence",
+        "New Heavy Missile Ship：powerful long range"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "1.11",
+       "date": "2017-09-23",
+       "name": "Replays, new mechs, lots of optimisations, etc",
+       "notes": [
+        "New Multiplayer Replays!",
+        "Watch recorded multiplayer games at up to 64x speed",
+        "You can create saves at any point in a replay to start a new multiplayer game from or edit in sandbox"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "1.10",
+       "date": "2017-08-13",
+       "name": "Shared control, mechs, maps, better AI",
+       "notes": [
+        "Basic mech：Land only",
+        "Anti-air mech：Area effect anti-air only",
+        "Plasma Mech：Long range air & ground attack"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "1.05",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Lots of bug fixes",
+        "New unit: Combat Engineer - Heavily armored builder (with T2 buildings, torpedos, self repair, fabricator, hover)",
+        "New unit: Heavy Sub - Heavily armored submarine"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "1.04",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Over double frame rate with large armies and battles",
+        "New map 'Huge Subdivide' could fit 4 large maps inside it",
+        "New updates to turrets:"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "1.03",
+       "date": "",
+       "name": "",
+       "notes": [
+        "New unit 'Experimental Dropship' - Armed flying transport which can also build units",
+        "New unit 'Heavy Battleship'",
+        "New unit 'Missile Tank' - Long range air/land missiles"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "1.01",
+       "date": "",
+       "name": "",
+       "notes": [
+        "7 skirmish maps from 'hxyy'/华夏_有衣 (more maps to come)",
+        "2 new units - Nuke launcher and Anti-Nuke launcher",
+        "Map thumbnails shown in single player map list"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "0.98",
+       "date": "",
+       "name": "",
+       "notes": [
+        "THE SEA UPDATE",
+        "3 new skirmish maps",
+        "3 new units: Submarines, Builder Ships, Amphibious Jets"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "0.97",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Dedicated servers",
+        "Public chat server which all game from any version can join",
+        "New multithread rendering engine, allowing update and draw to run at the same time on multi-core phones"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "0.96",
+       "date": "",
+       "name": "",
+       "notes": [
+        "6 new skirmish maps",
+        "Performance improvements",
+        "USB mouse support: such as click and drag box selection (Android 4.0+)"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "0.95",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Menu screen now shows battles in the background, or if there is an active game being played it is shown frozen",
+        "Pathfinding system is now completely multithreaded: this should remove nearly all freezes, and allow the game to run better on multi-core phones",
+        "Pathfinding system now uses significantly less memory and runs faster."
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "0.89",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Added laser defence building to counter artillery and missiles",
+        "Added dropship, a flying transport",
+        "Added new skirmish/multiplayer map 'Big island'"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "未标注①",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Added unit groups buttons/hotkeys. To allow quick selection of different units. (short press to add, long press to replace, double tap to focus)",
+        "Rally points can now be set for all factories",
+        "Added new unit 'Heavy Hovertank'"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "未标注②",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Fixed 4.1 crashes on start",
+        "Some AI Improvements, start of AI difficulty levels (see settings)",
+        "New unit graphics, and music"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "0.82",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Added proper saving and loading support! You can now save games to the SD card.",
+        "new challenge mission - 'Beachhead Landing'",
+        "option to rendering the game with 2x pixel size, workaround for very high res screens."
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "0.80",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Added gunship air unit. Can attack ground only. Strong attack and heavily armored",
+        "You can now load custom maps and missions from the SD card (see the corrodinggames forums for details on making your own maps)",
+        "3 new maps: skirmish/multiplayer map - 'Large Ice Outcrop', Mission 6 'Snowy Outcrop', challenge - Ice Base"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "0.75",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Added challenge missions for experienced players. Currently two missions. '1v3 Island' and 'Artillery'",
+        "AI is smarter. Defends itself better and is more aggressive. More improvements planned.",
+        "Fixed map victory conditions requiring turrets to be destroyed"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "0.x",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Zooming out to full map shows unit icons, making easier to give orders while increasing performance (can be disabled in settings)",
+        "Extractors can now be upgraded",
+        "Added help screens for new users"
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      },
+      {
+       "v": "0.x",
+       "date": "",
+       "name": "",
+       "notes": [
+        "Sidebar can be now used to select units of specific types",
+        "Added scroll speed option in the settings",
+        "Fixed render artifacts on edge of screen when loading new map if zoomed in."
+       ],
+       "wiki": "https://corrodinggames.com/rusted_warfare_changelog",
+       "channel": "release"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

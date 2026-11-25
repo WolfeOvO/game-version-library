@@ -1,0 +1,19 @@
+# Generated data is intentionally validated, not ignored.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local-only caches and logs.
+cache/
+logs/
+
+# Never publish credentials or local environment files.
+.env
+.env.*
+!.env.example
+
+# Generated temporary files.
+*.tmp
+*.partial
