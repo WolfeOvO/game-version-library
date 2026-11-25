@@ -83,6 +83,11 @@ def main() -> int:
                 if source_id not in registered_sources:
                     fail(errors, f"{offer_id}: unknown offer source_id: {source_id}")
                 url = offer.get("url", "")
+                parsed_url = urlparse(url)
+                if parsed_url.scheme not in {"http", "https"} or not parsed_url.netloc:
+                    fail(errors, f"{offer_id}: offer URL must use http or https")
+                if parsed_url.username or parsed_url.password:
+                    fail(errors, f"{offer_id}: URL contains embedded credentials")
                 query_names = {name.lower() for name in parse_qs(urlparse(url).query)}
                 if query_names & SECRET_QUERY_NAMES:
                     fail(errors, f"{offer_id}: credential-like query parameter: {sorted(query_names & SECRET_QUERY_NAMES)}")

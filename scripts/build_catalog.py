@@ -76,6 +76,8 @@ class SourceRegistry:
             }
         else:
             self.items[key]["retrieved_at"] = max(self.items[key]["retrieved_at"], iso(retrieved_at))
+            if self.items[key]["url"] == "https://example.invalid/" and url:
+                self.items[key]["url"] = url
         return key
 
     def offer_source(self, source_id: str, url: str, retrieved_at: str, kind: str = "import") -> str:
@@ -176,7 +178,7 @@ def dataset(dataset_id: str, game_id: str, name: str, family: str, os_name: str,
         "platform_id": dataset_id,
         "name": name,
         "platform": {"display_name": name, "family": family, "os": os_name},
-        "last_verified_at": verified_at,
+        "last_verified_at": max([verified_at] + [item["last_verified_at"] for item in entries]),
         "license": license_block(),
         "provenance": {"source_ids": sorted(set(source_ids)), "method": "import", "retrieved_at": verified_at},
         "entries": entries,
@@ -214,7 +216,9 @@ def merge_history(items: dict[str, dict], game_id: str, dataset_id: str, history
 
 def build_stardew(registry: SourceRegistry) -> list[dict]:
     raw_doc = read_json(SNAP / "stardew.json")
+    history = read_json(SNAP / "game_history.json")
     verified = iso(raw_doc.get("generated"))
+    stardew_history_sources = history_sources(registry, history).get("stardew", [])
     items: dict[str, dict] = {}
     sources: list[str] = []
     for raw in raw_doc.get("versions") or []:
@@ -225,8 +229,13 @@ def build_stardew(registry: SourceRegistry) -> list[dict]:
         for index, raw_offer in enumerate(raw.get("offers") or []):
             source_id = registry.offer_source(raw_offer.get("source", "stardew"), raw_offer.get("url", "https://example.invalid/"), verified)
             item.setdefault("offers", []).append(map_offer(raw_offer, source_id, verified, index, f"stardew-valley-android:{version}"))
-        items[item["entry_id"]] = item
-    return [dataset("stardew-valley-android", "stardew-valley", "星露谷物语 Android", "mobile", "Android", verified, sources, finalize(items))]
+        items[version] = item
+    merge_history(items, "stardew-valley", "stardew-valley-android", history, "stardew", "android", stardew_history_sources)
+    android_dataset = dataset("stardew-valley-android", "stardew-valley", "星露谷物语 Android", "mobile", "Android", verified, sources + stardew_history_sources, finalize(items))
+    pc_history: dict[str, dict] = {}
+    merge_history(pc_history, "stardew-valley", "stardew-valley-pc", history, "stardew", "pc", stardew_history_sources)
+    pc_dataset = dataset("stardew-valley-pc", "stardew-valley", "星露谷物语 PC 版本记录", "desktop", "Windows/macOS/Linux", iso(history.get("generated")), stardew_history_sources, finalize(pc_history))
+    return [android_dataset, pc_dataset]
 
 
 def build_non_minecraft(registry: SourceRegistry) -> list[dict]:
@@ -263,9 +272,10 @@ def build_non_minecraft(registry: SourceRegistry) -> list[dict]:
                 item.setdefault("offers", []).append(map_offer(raw_offer, nullatom, verified, index, f"{dataset_id}:{version}"))
             if source_game == "terraria" and key in {"client-android", "client-windows"}:
                 merge_history(items, game_id, dataset_id, history, source_game, "mobile" if key == "client-android" else "desktop", history_ids.get(source_game, []))
-            if source_game == "rustedwarfare":
-                merge_history(items, game_id, dataset_id, history, source_game, "all", history_ids.get(source_game, []))
             output.append(dataset(dataset_id, game_id, name, family, os_name, verified, [nullatom], finalize(items)))
+    rw_history: dict[str, dict] = {}
+    merge_history(rw_history, "rusted-warfare", "rusted-warfare-history", history, "rustedwarfare", "all", history_ids.get("rustedwarfare", []))
+    output.append(dataset("rusted-warfare-history", "rusted-warfare", "铁锈战争版本记录", "unknown", "多平台", iso(history.get("generated")), history_ids.get("rustedwarfare", []), finalize(rw_history)))
     return output
 
 

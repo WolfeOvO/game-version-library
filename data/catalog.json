@@ -5,9 +5,74 @@
       "dataset_id": "rusted-warfare-android",
       "entries": [
         {
+          "availability": "downloadable",
+          "channel": "unknown",
+          "entry_id": "entry-2fd5df9d3c4d2efc3b39",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-02T13:18:55Z",
+          "offers": [
+            {
+              "access": {
+                "mode": "public"
+              },
+              "kind": "page",
+              "label": "1.15.apk",
+              "last_verified_at": "2026-11-02T13:18:55Z",
+              "offer_id": "offer-e394fea4a863572b9562",
+              "provider": "NullAtom 原站页",
+              "scope": "file",
+              "size_bytes": 26564607,
+              "source_id": "nullatom",
+              "url": "https://res.nullatom.com/RustedWarfare/Android/1.15.apk",
+              "verification_status": "unknown"
+            }
+          ],
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-02T13:18:55Z",
+              "source_id": "nullatom"
+            }
+          ],
+          "version": "1.15",
+          "version_normalized": "1.15",
+          "version_raw": "1.15"
+        }
+      ],
+      "game_id": "rusted-warfare",
+      "last_verified_at": "2026-11-02T13:18:55Z",
+      "license": {
+        "code": {
+          "spdx_id": "MIT"
+        },
+        "data": {
+          "notice": "仅发布版本元数据、来源和入口，不随本目录再分发游戏文件。",
+          "spdx_id": "LicenseRef-GameVersionLibrary-Metadata"
+        },
+        "redistribution": "link-only"
+      },
+      "name": "铁锈战争 Android",
+      "platform": {
+        "display_name": "铁锈战争 Android",
+        "family": "mobile",
+        "os": "Android"
+      },
+      "platform_id": "rusted-warfare-android",
+      "provenance": {
+        "method": "import",
+        "retrieved_at": "2026-11-02T13:18:55Z",
+        "source_ids": [
+          "nullatom"
+        ]
+      }
+    },
+    {
+      "dataset_id": "rusted-warfare-history",
+      "entries": [
+        {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-b32d21048b956798c51e",
+          "entry_id": "entry-a2da9c4aee76bd954e35",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Fixed 4.1 crashes on start Some AI Improvements, start of AI difficulty levels (see settings) New unit graphics, and music",
@@ -30,7 +95,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-3cd5c334d20b1bdd5423",
+          "entry_id": "entry-a4370819131c0367bb7a",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Added unit groups buttons/hotkeys. To allow quick selection of different units. (short press to add, long press to replace, double tap to focus) Rally points can now be set for all factories Added new unit 'Heavy Hovertank'",
@@ -53,7 +118,7 @@
         {
           "availability": "metadata-only",
           "channel": "beta",
-          "entry_id": "entry-f3d4a0d7fc2f628e4049",
+          "entry_id": "entry-bbaee61f2ab17f055936",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Over 100% faster rendering on PC with high numbers of small units on screen (runs smooth in tests with 10,000+ units on-screen) New unit - Heavy AA Ship (by uber) Overrides for each players in multiplayer and advanced skirmish ---AI difficulty can now be set differently for each AI player ---Starting units can b",
@@ -75,28 +140,12 @@
           "version_raw": "1.15p8"
         },
         {
-          "availability": "downloadable",
+          "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-2fd5df9d3c4d2efc3b39",
+          "entry_id": "entry-dff89266852ad8ee4313",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
-          "offers": [
-            {
-              "access": {
-                "mode": "public"
-              },
-              "kind": "page",
-              "label": "1.15.apk",
-              "last_verified_at": "2026-11-02T13:18:55Z",
-              "offer_id": "offer-e394fea4a863572b9562",
-              "provider": "NullAtom 原站页",
-              "scope": "file",
-              "size_bytes": 26564607,
-              "source_id": "nullatom",
-              "url": "https://res.nullatom.com/RustedWarfare/Android/1.15.apk",
-              "verification_status": "unknown"
-            }
-          ],
+          "notes": "After 10 betas releases this major update is finally out. Thank you for all the help from modders and testers. This update as been focused on major under the hood changes that grea Shaders：Team coloring shaders - Used to greatly reduce memory use of mods with large images, and eliminates  New unit - Heavy AA Ship",
           "provenance": [
             {
               "method": "import",
@@ -107,11 +156,6 @@
               "method": "import",
               "retrieved_at": "2026-11-03T18:46:24Z",
               "source_id": "history-rustedwarfare-steam-appid-647960"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-02T13:18:55Z",
-              "source_id": "nullatom"
             }
           ],
           "release_date": "2022-11-12",
@@ -122,7 +166,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-da2a4f5285f4c7fdfb43",
+          "entry_id": "entry-3a976a0389043a3a0d1d",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "New Unit: Modular Spider：A walking mobile base New Turrets and buildings：Lightning Turret T1 & T2 - Upgraded from basic land turret Extractor T3 upgrades：Overclock: Much less health. Generates credits faster. Can be reverted back to T3 for a 50% refund.",
@@ -146,7 +190,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-c258d715f7c52b28b4db",
+          "entry_id": "entry-8ce4ef805fde5ae78cfe",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "New map: Many Islands Large (10p) New unit: Mech Engineer - T2 Mech builder with AA attack Path finding system has 2x-3x better performance and uses less memory.",
@@ -170,7 +214,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-1e6f73c4b23d31a66be4",
+          "entry_id": "entry-5c2dc5795f90692788e5",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Main new features：Surrender voting system added to multiplayer Other changes：Units better follow paths and take a wider gap around obstacles when in a group Balance：Flame turret damage: 3 -> 4",
@@ -194,7 +238,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-d6434d7e34b81b6d295b",
+          "entry_id": "entry-f1516e4579af4b56b599",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Main new features Light gunship：Very weak but cheap Underwater probe：weak scout",
@@ -218,7 +262,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-64519e3f79bb3570cf7c",
+          "entry_id": "entry-44f1fc014a83ecbc4ffa",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Steam workshop support for units and maps! New Heavy artillery：T2 artillery with limited laser defence New Heavy Missile Ship：powerful long range",
@@ -242,7 +286,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-b0f82aae0bb8fc7b6fe3",
+          "entry_id": "entry-400907a988f4ea26b3e0",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "New Multiplayer Replays! Watch recorded multiplayer games at up to 64x speed You can create saves at any point in a replay to start a new multiplayer game from or edit in sandbox",
@@ -266,7 +310,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-be623ed9a85f6f818543",
+          "entry_id": "entry-3e786bbc10e038afa443",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Basic mech：Land only Anti-air mech：Area effect anti-air only Plasma Mech：Long range air & ground attack",
@@ -290,7 +334,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-e4d74588d22350c600ce",
+          "entry_id": "entry-46db624b095a17319a4a",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Lots of bug fixes New unit: Combat Engineer - Heavily armored builder (with T2 buildings, torpedos, self repair, fabricator, hover) New unit: Heavy Sub - Heavily armored submarine",
@@ -313,7 +357,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-4b7f0ed7441b80d63cab",
+          "entry_id": "entry-a4a8229f02f51023fb7f",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Over double frame rate with large armies and battles New map 'Huge Subdivide' could fit 4 large maps inside it New updates to turrets:",
@@ -336,7 +380,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-0ed99491f11b95c9ca51",
+          "entry_id": "entry-210396c742481676e6e9",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "New unit 'Experimental Dropship' - Armed flying transport which can also build units New unit 'Heavy Battleship' New unit 'Missile Tank' - Long range air/land missiles",
@@ -359,7 +403,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-fce3a9d59d40cabe4663",
+          "entry_id": "entry-7935d76fe3e37e22b240",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "7 skirmish maps from 'hxyy'/华夏_有衣 (more maps to come) 2 new units - Nuke launcher and Anti-Nuke launcher Map thumbnails shown in single player map list",
@@ -382,7 +426,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-9b9e3ab49b1303539a34",
+          "entry_id": "entry-73f226ea50f8fa642184",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Zooming out to full map shows unit icons, making easier to give orders while increasing performance (can be disabled in settings) Extractors can now be upgraded Added help screens for new users",
@@ -415,7 +459,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-744d9d4b235c4aaa033e",
+          "entry_id": "entry-e35bc1048cc411492500",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "THE SEA UPDATE 3 new skirmish maps 3 new units: Submarines, Builder Ships, Amphibious Jets",
@@ -438,7 +482,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-3c93425fcea0c73caf3c",
+          "entry_id": "entry-ec8221e737d4fb5d6c84",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Dedicated servers Public chat server which all game from any version can join New multithread rendering engine, allowing update and draw to run at the same time on multi-core phones",
@@ -461,7 +505,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-f6f58a0abb512c69a397",
+          "entry_id": "entry-eee97a5adffc3c769c30",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "6 new skirmish maps Performance improvements USB mouse support: such as click and drag box selection (Android 4.0+)",
@@ -484,7 +528,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-a384bdb1b3aabc71b079",
+          "entry_id": "entry-3319b2b0d8af74ce9b2f",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Menu screen now shows battles in the background, or if there is an active game being played it is shown frozen Pathfinding system is now completely multithreaded: this should remove nearly all freezes, and allow the game to run better on multi-core phones Pathfinding system now uses significantly less memory and runs faster.",
@@ -507,7 +551,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-1c7fa417b512777c23a4",
+          "entry_id": "entry-d43fc545913cfa25c209",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Added laser defence building to counter artillery and missiles Added dropship, a flying transport Added new skirmish/multiplayer map 'Big island'",
@@ -530,7 +574,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-0800b688112bf1b071ac",
+          "entry_id": "entry-d665599db9ea5f26a852",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Added proper saving and loading support! You can now save games to the SD card. new challenge mission - 'Beachhead Landing' option to rendering the game with 2x pixel size, workaround for very high res screens.",
@@ -553,7 +597,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-fee6b6867cbd90857d3f",
+          "entry_id": "entry-08fa0ec5d4bee5d98183",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Added gunship air unit. Can attack ground only. Strong attack and heavily armored You can now load custom maps and missions from the SD card (see the corrodinggames forums for details on making your own maps) 3 new maps: skirmish/multiplayer map - 'Large Ice Outcrop', Mission 6 'Snowy Outcrop', challenge - Ice Base",
@@ -576,7 +620,7 @@
         {
           "availability": "metadata-only",
           "channel": "release",
-          "entry_id": "entry-4d513c24d6aa8ff2af67",
+          "entry_id": "entry-6a11135c468677c3c7b5",
           "entry_type": "version",
           "last_verified_at": "2026-11-03T18:46:24Z",
           "notes": "Added challenge missions for experienced players. Currently two missions. '1v3 Island' and 'Artillery' AI is smarter. Defends itself better and is more aggressive. More improvements planned. Fixed map victory conditions requiring turrets to be destroyed",
@@ -598,7 +642,7 @@
         }
       ],
       "game_id": "rusted-warfare",
-      "last_verified_at": "2026-11-02T13:18:55Z",
+      "last_verified_at": "2026-11-03T18:46:24Z",
       "license": {
         "code": {
           "spdx_id": "MIT"
@@ -609,70 +653,25 @@
         },
         "redistribution": "link-only"
       },
-      "name": "铁锈战争 Android",
+      "name": "铁锈战争版本记录",
       "platform": {
-        "display_name": "铁锈战争 Android",
-        "family": "mobile",
-        "os": "Android"
+        "display_name": "铁锈战争版本记录",
+        "family": "unknown",
+        "os": "多平台"
       },
-      "platform_id": "rusted-warfare-android",
+      "platform_id": "rusted-warfare-history",
       "provenance": {
         "method": "import",
-        "retrieved_at": "2026-11-02T13:18:55Z",
+        "retrieved_at": "2026-11-03T18:46:24Z",
         "source_ids": [
-          "nullatom"
+          "history-rustedwarfare-corroding-games-changelog",
+          "history-rustedwarfare-steam-appid-647960"
         ]
       }
     },
     {
       "dataset_id": "rusted-warfare-server",
       "entries": [
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-4d79008f04494db94d6b",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Fixed 4.1 crashes on start Some AI Improvements, start of AI difficulty levels (see settings) New unit graphics, and music",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "未标注②",
-          "version_normalized": "未标注②",
-          "version_raw": "未标注②"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-acfd692d2b7efb91029e",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Added unit groups buttons/hotkeys. To allow quick selection of different units. (short press to add, long press to replace, double tap to focus) Rally points can now be set for all factories Added new unit 'Heavy Hovertank'",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "未标注①",
-          "version_normalized": "未标注①",
-          "version_raw": "未标注①"
-        },
         {
           "availability": "downloadable",
           "channel": "unknown",
@@ -740,531 +739,6 @@
           "version": "5.4.2",
           "version_normalized": "5.4.2",
           "version_raw": "5.4.2"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "beta",
-          "entry_id": "entry-61156d152742eb750ffa",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Over 100% faster rendering on PC with high numbers of small units on screen (runs smooth in tests with 10,000+ units on-screen) New unit - Heavy AA Ship (by uber) Overrides for each players in multiplayer and advanced skirmish ---AI difficulty can now be set differently for each AI player ---Starting units can b",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "release_date": "2022-03-16",
-          "version": "1.15p8",
-          "version_normalized": "1.15p8",
-          "version_raw": "1.15p8"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-e281bb49c7935238f613",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "After 10 betas releases this major update is finally out. Thank you for all the help from modders and testers. This update as been focused on major under the hood changes that grea Shaders：Team coloring shaders - Used to greatly reduce memory use of mods with large images, and eliminates  New unit - Heavy AA Ship",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "release_date": "2022-11-12",
-          "version": "1.15",
-          "version_normalized": "1.15",
-          "version_raw": "1.15"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-26e39edfde57969586f6",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "New Unit: Modular Spider：A walking mobile base New Turrets and buildings：Lightning Turret T1 & T2 - Upgraded from basic land turret Extractor T3 upgrades：Overclock: Much less health. Generates credits faster. Can be reverted back to T3 for a 50% refund.",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "release_date": "2020-11-17",
-          "version": "1.14",
-          "version_normalized": "1.14",
-          "version_raw": "1.14"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-330beca3bf81b0d4cd01",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "New map: Many Islands Large (10p) New unit: Mech Engineer - T2 Mech builder with AA attack Path finding system has 2x-3x better performance and uses less memory.",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "release_date": "2019-09-07",
-          "version": "1.13.3",
-          "version_normalized": "1.13.3",
-          "version_raw": "1.13.3"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-7350ec0ad22429259df5",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Main new features：Surrender voting system added to multiplayer Other changes：Units better follow paths and take a wider gap around obstacles when in a group Balance：Flame turret damage: 3 -> 4",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "release_date": "2019-03-03",
-          "version": "1.13.2",
-          "version_normalized": "1.13.2",
-          "version_raw": "1.13.2"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-d5a9351345df2065951b",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Main new features Light gunship：Very weak but cheap Underwater probe：weak scout",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "release_date": "2018-12-02",
-          "version": "1.13",
-          "version_normalized": "1.13",
-          "version_raw": "1.13"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-a8418e991a6e76f95dfa",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Steam workshop support for units and maps! New Heavy artillery：T2 artillery with limited laser defence New Heavy Missile Ship：powerful long range",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "release_date": "2018-02-05",
-          "version": "1.12",
-          "version_normalized": "1.12",
-          "version_raw": "1.12"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-d8ff26763de0ac4c69f0",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "New Multiplayer Replays! Watch recorded multiplayer games at up to 64x speed You can create saves at any point in a replay to start a new multiplayer game from or edit in sandbox",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "release_date": "2017-09-23",
-          "version": "1.11",
-          "version_normalized": "1.11",
-          "version_raw": "1.11"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-c79ef546f3527c258bcd",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Basic mech：Land only Anti-air mech：Area effect anti-air only Plasma Mech：Long range air & ground attack",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "release_date": "2017-08-13",
-          "version": "1.10",
-          "version_normalized": "1.10",
-          "version_raw": "1.10"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-fc71fd297f0176653580",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Lots of bug fixes New unit: Combat Engineer - Heavily armored builder (with T2 buildings, torpedos, self repair, fabricator, hover) New unit: Heavy Sub - Heavily armored submarine",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "1.05",
-          "version_normalized": "1.05",
-          "version_raw": "1.05"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-fb953c44bfb8d285215e",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Over double frame rate with large armies and battles New map 'Huge Subdivide' could fit 4 large maps inside it New updates to turrets:",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "1.04",
-          "version_normalized": "1.04",
-          "version_raw": "1.04"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-06240d59e5bd9754d769",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "New unit 'Experimental Dropship' - Armed flying transport which can also build units New unit 'Heavy Battleship' New unit 'Missile Tank' - Long range air/land missiles",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "1.03",
-          "version_normalized": "1.03",
-          "version_raw": "1.03"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-b955826ed7b4c2012a3d",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "7 skirmish maps from 'hxyy'/华夏_有衣 (more maps to come) 2 new units - Nuke launcher and Anti-Nuke launcher Map thumbnails shown in single player map list",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "1.01",
-          "version_normalized": "1.01",
-          "version_raw": "1.01"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-affdaa146feb3889cdeb",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Zooming out to full map shows unit icons, making easier to give orders while increasing performance (can be disabled in settings) Extractors can now be upgraded Added help screens for new users",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "0.x",
-          "version_normalized": "0.x",
-          "version_raw": "0.x"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-febc6c36ec31dec03f2e",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "THE SEA UPDATE 3 new skirmish maps 3 new units: Submarines, Builder Ships, Amphibious Jets",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "0.98",
-          "version_normalized": "0.98",
-          "version_raw": "0.98"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-d7a7ce3dd5cb00a0051e",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Dedicated servers Public chat server which all game from any version can join New multithread rendering engine, allowing update and draw to run at the same time on multi-core phones",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "0.97",
-          "version_normalized": "0.97",
-          "version_raw": "0.97"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-5be1e71613c2f9313073",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "6 new skirmish maps Performance improvements USB mouse support: such as click and drag box selection (Android 4.0+)",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "0.96",
-          "version_normalized": "0.96",
-          "version_raw": "0.96"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-9f88c9de82c01513a0d1",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Menu screen now shows battles in the background, or if there is an active game being played it is shown frozen Pathfinding system is now completely multithreaded: this should remove nearly all freezes, and allow the game to run better on multi-core phones Pathfinding system now uses significantly less memory and runs faster.",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "0.95",
-          "version_normalized": "0.95",
-          "version_raw": "0.95"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-df9adedfb6b0b34bb63e",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Added laser defence building to counter artillery and missiles Added dropship, a flying transport Added new skirmish/multiplayer map 'Big island'",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "0.89",
-          "version_normalized": "0.89",
-          "version_raw": "0.89"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-5ea7163468526ebec641",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Added proper saving and loading support! You can now save games to the SD card. new challenge mission - 'Beachhead Landing' option to rendering the game with 2x pixel size, workaround for very high res screens.",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "0.82",
-          "version_normalized": "0.82",
-          "version_raw": "0.82"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-6881768bb9fd00c270b7",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Added gunship air unit. Can attack ground only. Strong attack and heavily armored You can now load custom maps and missions from the SD card (see the corrodinggames forums for details on making your own maps) 3 new maps: skirmish/multiplayer map - 'Large Ice Outcrop', Mission 6 'Snowy Outcrop', challenge - Ice Base",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "0.80",
-          "version_normalized": "0.80",
-          "version_raw": "0.80"
-        },
-        {
-          "availability": "metadata-only",
-          "channel": "release",
-          "entry_id": "entry-b1d2269098cae7879139",
-          "entry_type": "version",
-          "last_verified_at": "2026-11-03T18:46:24Z",
-          "notes": "Added challenge missions for experienced players. Currently two missions. '1v3 Island' and 'Artillery' AI is smarter. Defends itself better and is more aggressive. More improvements planned. Fixed map victory conditions requiring turrets to be destroyed",
-          "provenance": [
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-corroding-games-changelog"
-            },
-            {
-              "method": "import",
-              "retrieved_at": "2026-11-03T18:46:24Z",
-              "source_id": "history-rustedwarfare-steam-appid-647960"
-            }
-          ],
-          "version": "0.75",
-          "version_normalized": "0.75",
-          "version_raw": "0.75"
         }
       ],
       "game_id": "rusted-warfare",
@@ -1348,6 +822,30 @@
           "version": "1.6.9.49",
           "version_normalized": "1.6.9.49",
           "version_raw": "1.6.9.49"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-74ad25ddd29ecd0620c4",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "包括 1.6、1.6.1 版本、1.6.2 版本、1.6.3 版本、1.6.4 版本、1.6.5 版本、1.6.6 版本",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-11-04",
+          "version": "1.6.9",
+          "version_normalized": "1.6.9",
+          "version_raw": "1.6.9"
         },
         {
           "availability": "downloadable",
@@ -2513,7 +2011,7 @@
           "channel": "release",
           "entry_id": "entry-210e788c336079c0cb85",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "改进 针对 Google Play Pass（Google Play 中的一种通行证）进行了更改。 错误修正 修复了游戏手柄崩溃的问题。",
           "offers": [
@@ -2549,6 +2047,16 @@
             }
           ],
           "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
             {
               "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
@@ -2615,7 +2123,7 @@
           "channel": "release",
           "entry_id": "entry-e8001b0569a3534df252",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "改进 新增了开关界面闪光特效的选项。 新增了调整工具栏字体大小的选项。 优化了平板上界面显示的比例。 提升了手柄操作体验。 错误修正 修复了游玩时无法播放音乐或播客的问题。 修复了“索拉里昂英雄传奇”事件中按钮无法点击的问题。 修复了菜单中偶尔出现物品丢失的问题。 修复了向博物馆捐赠后物品计数未增加的问题。 修复了更新",
           "offers": [
@@ -2653,6 +2161,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -2667,7 +2185,7 @@
           "channel": "release",
           "entry_id": "entry-aa4164f59f97b1332441",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "改进 优化了前往鹦鹉特快平台的寻路机制。 错误修正 修复了夜间结算存档时，职业选择重复出现的问题。 修复了上述问题导致的生命值出现异常的问题。 修复了高分辨率下无法提交特殊订单物品的问题。 修复了磨坊库存物品显示和消失的问题。 修复了收藏页面中日记残页图标和名称显示错误的问题。",
           "offers": [
@@ -2705,6 +2223,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -2719,7 +2247,7 @@
           "channel": "release",
           "entry_id": "entry-f6cad77bfad38884c8dd",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "改进 补充了一些缺失的中文翻译。 收集品选项卡不再展示所有的传说鱼类二代和椰林飘香。 （iOS）优化了部分设备上的 UI 缩放。 错误修正 修复了在接取特别任务后使用迷你出货箱时在夜间结算时发生的崩溃问题。 修复了部分物品重复或丢失的问题。 （Android）修复了在存档迁移时会造成崩溃的问题。 修复了手柄模式下仅能关",
           "offers": [
@@ -2757,6 +2285,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -2771,7 +2309,7 @@
           "channel": "release",
           "entry_id": "entry-ec2f6d0c99a118a75bab",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "改进 若玩家处于史莱姆屋内，不再自动选中武器攻击史莱姆。 错误修正 修复了取消附魔操作导致武器消失的问题。 现在可以正常在地毯上放置家具了。 修复了使用触屏移动时无法离开节日场景的问题。 （正式）修复了紧急存档后马匹无故消失的问题。 （正式）修复了紧急存档后出货箱内物品莫名消失的问题。 修复了一些可能导致游戏闪退的问题",
           "offers": [
@@ -2809,6 +2347,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -2823,7 +2371,7 @@
           "channel": "release",
           "entry_id": "entry-342205f9d832bb14fc0f",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "官方未提供本次的更新说明。 错误修正 隐藏控制按钮的选项现已可以正常使用。 现在使用工具时上马不会导致卡住了。 关闭菜单后，星之果实不再自动进入背包。 收集博物馆的奖励后物品能被正常移除了。",
           "offers": [
@@ -2861,6 +2409,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -2875,7 +2433,7 @@
           "channel": "release",
           "entry_id": "entry-4d5ee3266d4f8a798b29",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "改进 新增了一键整理到箱子的按钮。 破坏补给箱时能自动选取正确的工具。 错误修正 修复了紧急加载后祝尼魔屋导致的崩溃问题。 修复了紧急加载后马匹消失的问题。 修复了紧急加载后出货箱内物品消失的问题。 修复了 NPC 错误的寻路机制。 修复了动物被卡在外面变得不安的问题。 修复了菜单内光标显示的问题。 修复了塞巴斯蒂安六",
           "offers": [
@@ -2913,6 +2471,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -2927,7 +2495,7 @@
           "channel": "release",
           "entry_id": "entry-659530a594d58b20a1f3",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "改进 重新添加了中文。 错误修正 现在下马更加容易了。 增大了韩语字体的大小。 修复了涉及孩子的崩溃问题。 修复了自动采集器不能正常工作的问题。 修复了工具条卡住的问题。 修复了祝尼魔没有将收获的物品存入小屋的问题。 修复了在开始界面中的虚拟按钮问题。 修复了骑马时无法采集的问题。 修复了下马可能会卡在地图外的问题。 ",
           "offers": [
@@ -2965,6 +2533,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -2979,7 +2557,7 @@
           "channel": "release",
           "entry_id": "entry-45c0a06837fc47a53a2c",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "移植自 PC 端。 更新内容参见 PC 端版本 1.5、1.5.1、1.5.2、1.5.3、1.5.4、1.5.5和 1.5.6（不包括多人模式）。 此版本尚未添加中文。",
           "offers": [
@@ -3017,6 +2595,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -3031,7 +2619,7 @@
           "channel": "release",
           "entry_id": "entry-d64b268061a81be9d655",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了潘姆的九心事件。",
           "offers": [
@@ -3054,6 +2642,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -3068,7 +2666,7 @@
           "channel": "release",
           "entry_id": "entry-d6eb066294586e959146",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了收藏页古物显示的问题。 修复了矮人语教程不在钱包内显示的问题。 修复了矿井外某片区域不可到达的问题。 修复了潘姆的九心事件。 对齐过场动画。 特效显示位置修正。 修复了社交页最后一位村民无法显示的问题。",
           "offers": [
@@ -3091,6 +2689,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -3105,7 +2713,7 @@
           "channel": "release",
           "entry_id": "entry-f643976badf9af2c5328",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了部分机型出现的信箱问题。 兼容安卓10。",
           "offers": [
@@ -3126,6 +2734,16 @@
             }
           ],
           "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
             {
               "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
@@ -3177,7 +2795,7 @@
           "channel": "release",
           "entry_id": "entry-d3c73a54b95a28ad3209",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了博物馆捐赠古物丢失问题。 修复了在游戏后期得到防风草种子会使已经完成的任务重新开始的问题。 其他bug的修复。",
           "offers": [
@@ -3200,6 +2818,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -3214,7 +2842,7 @@
           "channel": "release",
           "entry_id": "entry-fc01ec138d94768f98a6",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 水平工具栏的修复。 图纸的修复。 Misc bug的修复。",
           "offers": [
@@ -3237,6 +2865,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -3251,7 +2889,7 @@
           "channel": "release",
           "entry_id": "entry-1153a9e0a5cecc196efb",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 星露谷展会钓鱼的修复。 Bug修复。",
           "offers": [
@@ -3274,6 +2912,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -3288,7 +2936,7 @@
           "channel": "release",
           "entry_id": "entry-d67224e0a5dbf0ce684c",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了祝尼魔小屋出现的bug。 其他bug的修复。",
           "offers": [
@@ -3311,6 +2959,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -3325,7 +2983,7 @@
           "channel": "release",
           "entry_id": "entry-23f6dfc2a4fbf9fb7312",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了离婚后游戏崩溃。 修复了大鸡舍及谷仓的自动喂食出现的问题。 修复了与五彩碎片染色相关的问题。 修复了各种bug。",
           "offers": [
@@ -3348,6 +3006,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -3362,7 +3030,7 @@
           "channel": "release",
           "entry_id": "entry-bdc3a0aa5935370d3e23",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了触屏移动、摇杆移动、及按键移动的问题。 修复了家具移动的问题。 修复了重复挥舞工具的问题。 修复了染色菜单栏。 修复了当使用罗宾提供的建筑相关功能时，屏幕会淡出两次的问题。 修复了触屏移动出现的各种问题。 修复了各种bug。",
           "offers": [
@@ -3385,6 +3053,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -3399,7 +3077,7 @@
           "channel": "release",
           "entry_id": "entry-bcd1b6ddda4493fb576d",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了使用虚拟手柄放置物品和移动家具的问题。 修复了桌上放置物品的bug。 修复了在使用虚拟摇杆时会误触到物品栏的问题。 修复了弹弓中存在的问题。 修复了玩家和蟹笼互动时的问题。 修复了玩家与茶树的互动问题。 修复了积雪不显示的问题。 修正了天气预报频道中每个季节的天气图标。 修复了在使用虚拟摇杆时星露谷展会",
           "offers": [
@@ -3422,6 +3100,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -3436,7 +3124,7 @@
           "channel": "release",
           "entry_id": "entry-e84adce3699cb03ef644",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "PC版本的部分 包括 PC 端版本 1.4.5的改变。 错误修正 修复了小屏幕触发对话出现的文本兼容问题。 修复了博物馆移动物品的问题。",
           "offers": [
@@ -3457,6 +3145,16 @@
             }
           ],
           "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
             {
               "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
@@ -3503,6 +3201,29 @@
           "version": "1.4.5.136",
           "version_normalized": "1.4.5.136",
           "version_raw": "1.4.5.136"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-5737d91a42294454a33b",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "修复了各种bug",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "version": "1.4.4.136",
+          "version_normalized": "1.4.4.136",
+          "version_raw": "1.4.4.136"
         },
         {
           "availability": "downloadable",
@@ -3654,7 +3375,7 @@
           "channel": "release",
           "entry_id": "entry-443a35e6f86983354bbc",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "此次更新增加了1.4版本的游戏内容。 PC端 包括 PC 端 1.4 版本， 1.4.1 版本， 1.4.2 版本， 1.4.3 版本， 及1.4.4 版本的改变。",
           "offers": [
@@ -3675,6 +3396,16 @@
             }
           ],
           "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
             {
               "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
@@ -4006,7 +3737,7 @@
           "channel": "release",
           "entry_id": "entry-fe362fbccefec492b325",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 兼容Pixel3。",
           "offers": [
@@ -4029,6 +3760,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4043,7 +3784,7 @@
           "channel": "release",
           "entry_id": "entry-5e83308a505cb1785bca",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了韩国地区出现的问题。 修复bug。",
           "offers": [
@@ -4066,6 +3807,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4080,7 +3831,7 @@
           "channel": "release",
           "entry_id": "entry-a7527d16159a0c74ea4f",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了 Google 商店正版校验出错的问题。",
           "offers": [
@@ -4101,6 +3852,16 @@
             }
           ],
           "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
             {
               "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
@@ -4187,7 +3948,7 @@
           "channel": "release",
           "entry_id": "entry-acafe36a19314dd02807",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了华为手机运行游戏时出现的问题。 修复bug。",
           "offers": [
@@ -4208,6 +3969,16 @@
             }
           ],
           "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
             {
               "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
@@ -4401,7 +4172,7 @@
           "channel": "release",
           "entry_id": "entry-0af4be3427ac066ad67d",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "offers": [
             {
@@ -4423,6 +4194,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4437,7 +4218,7 @@
           "channel": "release",
           "entry_id": "entry-4e2091d937ba02834107",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "调整 修复了外接手柄出现的问题。 你可以给马儿戴帽子了。 可以在室外孵化史莱姆。 修复了幻想棋盘游戏。 修复bug。",
           "offers": [
@@ -4460,6 +4241,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4474,7 +4265,7 @@
           "channel": "release",
           "entry_id": "entry-37de2ff6d4285396966d",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 兼容安卓6.0及以后的版本。 修复了音乐播放问题。 修复了存储时游戏崩溃的问题。",
           "offers": [
@@ -4497,6 +4288,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4511,7 +4312,7 @@
           "channel": "release",
           "entry_id": "entry-2cf49df67baa2b9dea67",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "由于灰度测试期间又出现了新的漏洞，该版本也被撤回，漏洞修复后发布了 1.24 版本。",
           "offers": [
@@ -4534,6 +4335,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4548,7 +4359,7 @@
           "channel": "release",
           "entry_id": "entry-db9271da577c5f130753",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "由于灰度测试期间又出现了新的漏洞，该版本也被撤回，漏洞修复后发布了 1.23 版本。",
           "offers": [
@@ -4571,6 +4382,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4585,7 +4406,7 @@
           "channel": "release",
           "entry_id": "entry-f09cb8024e5a780ba556",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "由于灰度测试期间出现了新的漏洞，该版本被撤回，漏洞修复后发布了 1.22 版本。",
           "offers": [
@@ -4608,6 +4429,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4622,7 +4453,7 @@
           "channel": "release",
           "entry_id": "entry-a7ccbf69656673c4052b",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "改进 钓鱼小游戏现在显示完美提示了。 现在可以使用外接手柄打开更多菜单页面。 修复了旧版系统上颜色导致的崩溃问题。 其他错误修复。",
           "offers": [
@@ -4645,6 +4476,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4659,7 +4500,7 @@
           "channel": "release",
           "entry_id": "entry-2342dd36c3988dc48bcc",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "改进 现在可以使用外接手柄打开商店菜单以及背包了。 修复了一些导致音乐无法正常播放的问题。 通知信息现在显示在屏幕上的水平工具栏上。 修复了装备着弹弓时进入星露谷展览会导致的问题。 其他错误修复。",
           "offers": [
@@ -4682,6 +4523,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4696,7 +4547,7 @@
           "channel": "release",
           "entry_id": "entry-05fd6eeca6c47034ef61",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "改进 改进外接手柄的游戏体验。 修复了出货箱菜单文本显示的问题。 缩小动物显示的菜单界面大小。 修复了水平工具栏。 修复了应用崩溃闪退的问题。 修复了偶发的地图崩溃问题。 修复了星露谷展览会上农产品展示的显示问题。 其他错误修复。",
           "offers": [
@@ -4719,6 +4570,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4733,7 +4594,7 @@
           "channel": "release",
           "entry_id": "entry-eae82ccc4880860c6e5f",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "由于灰度测试期间出现了新的漏洞，该版本被撤回，漏洞修复后发布了 1.17 版本。",
           "offers": [
@@ -4756,6 +4617,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4770,7 +4641,7 @@
           "channel": "release",
           "entry_id": "entry-68029fe24516eb542637",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了部分变色物品的颜色显示问题。 其他错误修复。",
           "offers": [
@@ -4793,6 +4664,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4807,7 +4688,7 @@
           "channel": "release",
           "entry_id": "entry-589ebcc63a7622b63e19",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了移除小桶时出现的问题。 修复了幻想棋盘游戏的触控问题。 获得物品后，提示信息可以显示物品数量了。 选取颜色后，可以直接预览箱子的外观。 出货箱菜单现在可以正常显示图标了。 打造菜单现在可以显示2列以上的内容了。 恢复隐藏摇杆操作方式下双指调整界面缩放大小的功能。",
           "offers": [
@@ -4830,6 +4711,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4844,7 +4735,7 @@
           "channel": "release",
           "entry_id": "entry-87915b383469323b1445",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了游戏内音效回声出现异常的问题。 修复了游戏出现闪屏或黑屏的问题。 提高稳定性。",
           "offers": [
@@ -4867,6 +4758,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4881,7 +4782,7 @@
           "channel": "release",
           "entry_id": "entry-6dd411b68d7453f9ad7e",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了输入文本点击不了的问题。 修复了工具提示显示错位的问题。 修复了收集包完成后界面绘制的问题。",
           "offers": [
@@ -4904,6 +4805,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4918,7 +4829,7 @@
           "channel": "release",
           "entry_id": "entry-17d7cbeb003c315ee7ae",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了自动攻击弹出窗口的问题。 修复了社区中心菜单显示的问题。 其他错误修复。",
           "offers": [
@@ -4941,6 +4852,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4955,7 +4876,7 @@
           "channel": "release",
           "entry_id": "entry-681a42f8711cc544ef62",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了工具栏大小无法调整的问题。",
           "offers": [
@@ -4978,6 +4899,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -4992,7 +4923,7 @@
           "channel": "release",
           "entry_id": "entry-4e2909a393233cc09a72",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了社区中心收集包菜单显示的问题。 修复了动物信息菜单显示的问题。",
           "offers": [
@@ -5015,6 +4946,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -5029,7 +4970,7 @@
           "channel": "release",
           "entry_id": "entry-b57b7a2863f7d6ec1f0d",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了物品数量不显示的问题。 修正出货箱关闭按钮的显示位置。 重新设计了对话框的大小。 修复其他错误。",
           "offers": [
@@ -5052,6 +4993,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -5066,7 +5017,7 @@
           "channel": "release",
           "entry_id": "entry-39129364c51395c849f7",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "改进 菜单显示大小优化。 添加调整工具栏大小的滑块。 添加调整日期时间栏大小的滑块。 添加新的操作方式：摇杆与按钮。 禁用隐藏摇杆操作方式下双指调整界面缩放大小的功能。 扩大摇杆移动区域空间的大小。 修复了出货箱关闭按钮的显示问题。 修复其他错误。",
           "offers": [
@@ -5089,6 +5040,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -5103,7 +5064,7 @@
           "channel": "release",
           "entry_id": "entry-7b4efbd81fab90cea195",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "由于灰度测试期间又出现了新的漏洞，该版本也被撤回，漏洞修复后发布了 1.07 版本。",
           "offers": [
@@ -5126,6 +5087,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -5140,7 +5111,7 @@
           "channel": "release",
           "entry_id": "entry-9fd3258ba5e25b128f8f",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "由于灰度测试期间出现了新的漏洞，该版本被撤回，漏洞修复后发布了 1.06 版本。",
           "offers": [
@@ -5163,6 +5134,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -5177,7 +5158,7 @@
           "channel": "release",
           "entry_id": "entry-70328b3b9bababbc02fe",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 提高游戏稳定性。",
           "offers": [
@@ -5200,6 +5181,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -5214,7 +5205,7 @@
           "channel": "release",
           "entry_id": "entry-d12da1e84f54cbbfbe76",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了游戏在星期天（游戏内）崩溃的问题。",
           "offers": [
@@ -5237,6 +5228,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -5251,7 +5252,7 @@
           "channel": "release",
           "entry_id": "entry-ca4870b359d9c0800bb6",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "错误修正 修复了开启游戏时可能崩溃的问题。 修复了人物出现在错误的地方以及行为不正常的问题。 修复了音频导致的崩溃。",
           "offers": [
@@ -5274,6 +5275,16 @@
           "provenance": [
             {
               "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
+            {
+              "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
               "source_id": "stardew"
             }
@@ -5288,7 +5299,7 @@
           "channel": "release",
           "entry_id": "entry-57689a5b98afdb5f4f31",
           "entry_type": "version",
-          "last_verified_at": "2026-10-25T05:30:52Z",
+          "last_verified_at": "2026-11-03T18:46:24Z",
           "major": "1.x",
           "notes": "1.01 r 版本是 1.01 的重新上传版本（两者版本号一致，版本代码不同，此处仅作区分） 错误修正 修复了应用权限导致的打开游戏出现的崩溃。",
           "offers": [
@@ -5309,6 +5320,16 @@
             }
           ],
           "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            },
             {
               "method": "import",
               "retrieved_at": "2026-10-25T05:30:52Z",
@@ -5356,10 +5377,34 @@
           "version": "1.00",
           "version_normalized": "1.00",
           "version_raw": "1.00"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-3ddaaccda0ee3a3fb076",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "在玩家退出游戏或改变位置时自动存档，即使游戏被强制退出或卸载依然可以继续之前的游戏进度，节日期间或播放过场动画时不会生效。 自动存档产生的存档不能被其他平台读取，若要转移存档，必须在游戏内睡觉，开始新的一天，存档才可以在其他平台继续使用。 在选项卡中添加存档按钮以便随时存档。（详见 手机存档）",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2019-03-13",
+          "version": "1.0",
+          "version_normalized": "1.0",
+          "version_raw": "1.0"
         }
       ],
       "game_id": "stardew-valley",
-      "last_verified_at": "2026-10-25T05:30:52Z",
+      "last_verified_at": "2026-11-03T18:46:24Z",
       "license": {
         "code": {
           "spdx_id": "MIT"
@@ -5381,7 +5426,1310 @@
         "method": "import",
         "retrieved_at": "2026-10-25T05:30:52Z",
         "source_ids": [
+          "history-stardew-stardew-valley-wiki",
+          "history-stardew-stardewvalley-net",
           "stardew"
+        ]
+      }
+    },
+    {
+      "dataset_id": "stardew-valley-pc",
+      "entries": [
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-fe47452df87051483558",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "新内容与功能：如果丢失了无法再次找到的物品，一位新朋友会出现在秘密森林中，可以帮玩家找回它（需要付费）。 新内容与功能：现在玩家可以将传说鱼放入鱼塘，每个鱼塘最多只能放置一条传说鱼，并且会生产传说鱼籽。每条鱼都有独特的水色。 新内容与功能：现在玩家可以在任何允许家具放置的建筑物内放置床铺并休息。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-11-04",
+          "version": "1.6.9",
+          "version_normalized": "1.6.9",
+          "version_raw": "1.6.9"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-a5c3b2b98cc44e71752f",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "问题修复：修复了 1.6.7 中村民进入海滩度假村更衣室会导致游戏崩溃的问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-04-28",
+          "version": "1.6.8",
+          "version_normalized": "1.6.8",
+          "version_raw": "1.6.8"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-25337cc602a30cee6ce8",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "问题修复：修复了玩家无法向皮埃尔提交丢失的存货单的问题。 问题修复：修复了部分机器和沙漠节的逻辑在 Linux/MacOS 系统上不能正确执行的问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-04-27",
+          "version": "1.6.7",
+          "version_normalized": "1.6.7",
+          "version_raw": "1.6.7"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-ed4c5da1ec1a70ad88f0",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "游戏性和平衡性改动：蜂房可以采集花盆里的花蜜了。 游戏性和平衡性改动：冻土层不再出现矿车。 游戏性和平衡性改动：黄金时钟可以手动开启或关闭了。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-04-26",
+          "version": "1.6.6",
+          "version_normalized": "1.6.6",
+          "version_raw": "1.6.6"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-90213a11b49aa7325e39",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "问题修复：修正了在某些情况下加载黑暗矿井时的崩溃问题。 问题修复：损坏的村民NPC（通常是由于移除了模组）现在在加载时会被删除。他们会在被重新添加到数据中时重生。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-04-20",
+          "version": "1.6.5",
+          "version_normalized": "1.6.5",
+          "version_raw": "1.6.5"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-fd3136378916334f4c77",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "新内容和功能：添加了 20 个新的“备用”矿井布局，这些布局可以在到达矿井底部后开始出现。 新内容和功能：添加了 20 个新的火山矿井布局，这些布局可以在玩家解锁火山口和火山入口之间的快捷方式后出现。 新内容和功能：添加了鱼的狂潮。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-04-18",
+          "version": "1.6.4",
+          "version_normalized": "1.6.4",
+          "version_raw": "1.6.4"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-6cc507777ff7fc1d9ea8",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "新内容和新特性：玩家现在可以在升级工具的期间使用克林特的商店和破开晶球服务。 新内容和新特性：添加了科罗布斯的肖像。 新内容和新特性：在第一年的万灵节里添加了矿车捷径。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-03-27",
+          "version": "1.6.3",
+          "version_normalized": "1.6.3",
+          "version_raw": "1.6.3"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-e16829a86ade110fd1d9",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "问题修复：修复了威利鱼竿的问题。 问题修复：修复了茶的贴图显示异常的问题。 问题修复：修复了葡萄牙语下夏威夷宴会出错的问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-03-21",
+          "version": "1.6.2",
+          "version_normalized": "1.6.2",
+          "version_raw": "1.6.2"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-b172fffa2af76af7cc7d",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "平衡性改进：传说鱼类鱼塘现在产出鱼籽更频繁，其平均日收益更高。 游玩便利性改动：性能优化。 游玩便利性改动：在冰箱和迷你冰箱界面中添加了祝尼魔收集包按钮。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-12-20",
+          "version": "1.6.15",
+          "version_normalized": "1.6.15",
+          "version_raw": "1.6.15"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-7ea0a6ea411a4ed1fea9",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "改动：添加了几种配偶无对话时的互动反应。 改动：现在手持鱼类时/在鱼塘钓鱼时晕倒不会丢失相应鱼类。 改动：修复了动物产品总为普通品质的问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-11-12",
+          "version": "1.6.14",
+          "version_normalized": "1.6.14",
+          "version_raw": "1.6.14"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-039e79d77f217c01519d",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "平衡性改动：修复了鱼塘中的传说之鱼比预期收益高的问题。 视觉改动：放置在传说之鱼鱼塘的牌子不再在鱼下面显示“1”。 问题修复：修复了村民无法走过海滩桥梁的问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-11-08",
+          "version": "1.6.13",
+          "version_normalized": "1.6.13",
+          "version_raw": "1.6.13"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-d3697a7b30c33e74cc33",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "游戏性改动：现在挖掘特殊地块、使用淘盘、收获姜以及砍伐树枝能给予采集经验了。 游戏性改动：现在砍伐树木和树桩获得的采集经验略微增加。 游戏性改动：现在桑迪在商店售卖基础裤子。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-11-07",
+          "version": "1.6.12",
+          "version_normalized": "1.6.12",
+          "version_raw": "1.6.12"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-603b6dadcbd265db5a98",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "问题修复：可能修复了农场动物在罕见情况下消失的问题。 问题修复：修复了村民在玩家第一次向他们对话时没有反应的问题。 问题修复：修复了无法使用手柄从墙上摘取家具的问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-11-06",
+          "version": "1.6.11",
+          "version_normalized": "1.6.11",
+          "version_raw": "1.6.11"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-dee4fbc2d8687d6b7b94",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "问题修复及变化：改进了部分法语和俄语的翻译。 问题修复及变化：修复了当失物商店出售潘妮14颗心事件物品时导致的崩溃问题。 问题修复及变化：修复了在1.6.9版本中新创建的草原农场里没有鸡的问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-11-04",
+          "version": "1.6.10",
+          "version_normalized": "1.6.10",
+          "version_raw": "1.6.10"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-75808301fd341c059695",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "修复了德语环境下关于蛋的任务的文本（防止对新玩家的误导）。 避免了动物数量少时点击动物标签页滚动条而导致的崩溃。 避免了祝尼魔收获时导致的存档崩溃。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-03-19",
+          "version": "1.6.1",
+          "version_normalized": "1.6.1",
+          "version_raw": "1.6.1"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-0ef446b849d03cb90f8e",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "新内容和特性：增加了新的节日和活动： 新内容和特性：沙漠节是春天的一个为期三天的活动，修理好巴士后可以前往。 新内容和特性：两个迷你钓鱼节日：鳟鱼大赛和鱿鱼节。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2024-03-19",
+          "version": "1.6",
+          "version_normalized": "1.6",
+          "version_raw": "1.6"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-5f986145e1fcb0989577",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "生活质量变更：在使用多显示器时，游戏会记住并套用上一次运行时使用的显示器。 问题修复：可能修复了在夜晚结束时游戏小概率崩溃的问题。 问题修复：修复了在开始新游戏时部分类型的农场的墙纸和地板没有正确应用的问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2021-12-21",
+          "version": "1.5.6",
+          "version_normalized": "1.5.6",
+          "version_raw": "1.5.6"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-6e2a300532c0028fba7a",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "架构变更：将游戏开发环境从XNA（针对.NET Framework 4.5.2）迁移到了MonoGame（针对.NET 5）。这项变更让游戏紧随潮流，并允许Mod超过4GB的内存。此外为登录Xbox Game Pass提供了支持。玩家可能需要通过Steam或GOG运行原版游戏一次以安装新的运行库。 架构变更：为Mod作者做了多处内部改动（参见面向Mod作者的迁移指南和已完成的Mod框架更新愿望单）。 生活质量变更：同时按下 + 可以让玩家一次性购买或制作25件物品了。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2021-11-30",
+          "version": "1.5.5",
+          "version_normalized": "1.5.5",
+          "version_raw": "1.5.5"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-ccce5fd03990488ffd0e",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "功能性改动：在桑迪的生日当天潘姆不再会前往姜岛的度假村。 功能性改动：现在星露谷展览会商店中的随机物品每种只会出售一份。 功能性改动：在星露谷展览会商店的随机物品中添加了三倍浓缩咖啡，移除了茶苗。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2021-01-22",
+          "version": "1.5.4",
+          "version_normalized": "1.5.4",
+          "version_raw": "1.5.4"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-fe2a0539bf18ffd821de",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "平衡性改动：猫头鹰雕像事件现在更少见了。 平衡性改动：奇怪的胶囊事件现在每个存档只会触发一次。 平衡性改动：提高了五彩史莱姆的出现概率(从0.8%提高到了1.2%),同时它们的出现概率现在受到运气的影响了。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2021-01-15",
+          "version": "1.5.3",
+          "version_normalized": "1.5.3",
+          "version_raw": "1.5.3"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-0d8a40e67ba42add7177",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "功能性改动：“升级”界面不会再定位在画面外，玩家也可以通过按下 ESC 键关闭“升级”菜单。 平衡性改动：齐瓜现在可以在冬季时于农场生长。 平衡性改动：现在会追踪工具之前两次的附魔效果，因此在重新进行附魔时，不会应用这两种效果。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2021-01-08",
+          "version": "1.5.2",
+          "version_normalized": "1.5.2",
+          "version_raw": "1.5.2"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-9d877df8f51469088a68",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "功能性改动：水晶洞穴里的谜题在重复失败后会逐渐降低难度。 功能性改动：本地分屏玩家现在可以选择云端的角色。这允许玩家可以在本地多人模式继续使用线上多人时的旧角色。 功能性改动：配偶不会再呆滞地盯着某些地毯样式的家具。这样他们就不会在某些情况下挡住玩家的路了。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2020-12-24",
+          "version": "1.5.1",
+          "version_normalized": "1.5.1",
+          "version_raw": "1.5.1"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-ce4d38758ae095d446d4",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "新的世界区域：添加了新的地点，对话，事件，小游戏，谜题以及一条多NPC参与的任务线。 新的世界区域：新NPC雷欧，以及他的背景故事，剧情，事件等等。 新的世界区域：新的次要角色贝啼, 饕餮青蛙, 和蜗牛教授.",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2020-12-21",
+          "version": "1.5",
+          "version_normalized": "1.5",
+          "version_raw": "1.5"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-7057107508a6d4052a65",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "问题修复：修复了Windows上的一个问题，在该问题中，游戏将不正确初始化并在没有音频的情况下启动。 问题修复：修正了一个移动的问题，比如火把，会阻止玩家攻击站在附近的敌人。 问题修复：如果捐赠了古代种子而未拿到配方，可找冈瑟索取。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2020-02-11",
+          "version": "1.4.5",
+          "version_normalized": "1.4.5",
+          "version_raw": "1.4.5"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-634a82bbeafad6cc6236",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "变化：调整了掉落物的拾取机制，提升了多人游戏中的主机外其他玩家的拾取响应性能，减少拾取掉落物后回弹至原位的情况。 变化：调整了物品收集方面的代码，以便可以在不使用光标模式的情况下重新填充放置于角落中的机器。 变化：修复了艾利欧特的14心事件在非英语语言中不能正常运行的问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2020-01-31",
+          "version": "1.4.4",
+          "version_normalized": "1.4.4",
+          "version_raw": "1.4.4"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-3d4a2ac0813d3f843c02",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "问题修复：修复了在社区中心如果玩家直接关闭菜单而不是取得奖励就可能收集到多份相同的收集包奖励的问题。 问题修复：修复了当玩家将玩家的宠物命名为NPC名字时会导致玩家的宠物会出现在日历上，并且与NPC生日相同的漏洞。 问题修复：修复了当使用添加到现有按钮时的物品复制漏洞。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2019-12-13",
+          "version": "1.4.3",
+          "version_normalized": "1.4.3",
+          "version_raw": "1.4.3"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-ec51357f9e71c9c620cc",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "变化：恢复了 1.4.1 中引入的物品放置规则，该规则用于防止玩家将地板或火把放置在其配偶的门廊地块上。现在，配偶早上走到门廊时会忽略地板、踢掉火把。 问题修复：修复了抓娃娃机游戏在Mac上加载时崩溃的问题。 问题修复：修复了工作台不能从地毯上的宝箱取出物品的问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2019-12-04",
+          "version": "1.4.2",
+          "version_normalized": "1.4.2",
+          "version_raw": "1.4.2"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-bc0881f6bbcad0685794",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "新内容：将游戏手柄模式添加到选项菜单中。它有三个值：“自动”(默认)根据最后一次输入在键盘/鼠标之间切换；“强制打开”强制游戏使用游戏手柄逻辑，类似于星露谷物语的早期版本；“强制关闭”禁用游戏手柄，如果玩家只使用键盘/鼠标玩游戏，就可以使用。 新内容：当玩家在博物馆解锁了稀有稻草人（#7）和稀有稻草人（#8）后，可以在冬季的夜市中买到更多。 新内容：一些非配偶 NPC 现在有自定义的电影票接受对话(仅英文版)。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2019-12-02",
+          "version": "1.4.1",
+          "version_normalized": "1.4.1",
+          "version_raw": "1.4.1"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-629a43a8595101141e59",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "新内容和功能：增加了在游戏后期解锁的电影院，以及相关的内容和功能。 新内容和功能：为每位配偶增加了14心事件。 新内容和功能：增加了新的事件和对话（包括卡洛琳的新的爱心事件）。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2019-11-26",
+          "version": "1.4",
+          "version_normalized": "1.4",
+          "version_raw": "1.4"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-7476eee18e676347e7d0",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "变化：新增了法语，韩语，意大利语，匈牙利语和土耳其语支持 变化：添加了一个新的 \"Credits\" 菜单来替换标题屏幕上的 \"About\" 菜单，并删除了 /credits 聊天命令。 变化：删除了 Content 目录下不需要的图块文件。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2019-03-01",
+          "version": "1.3.36",
+          "version_normalized": "1.3.36",
+          "version_raw": "1.3.36"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-21526b9b5a8236b20dd5",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "变化：有大量光源时的视觉效果更新(如 火把). 变化：农场有大量动物时的视觉效果更新。 变化：体力标志更新.",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2019-01-08",
+          "version": "1.3.33",
+          "version_normalized": "1.3.33",
+          "version_raw": "1.3.33"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-bc27f1c29f42ebb92998",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "变化：优化网络性能。 变化：增加了主机解除服务器暂停的更多方法(按Esc，B，Back)。 变化：增加了显示聊天框的另一种方式(按控制器上的“右键”按钮)。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2018-11-19",
+          "version": "1.3.32",
+          "version_normalized": "1.3.32",
+          "version_raw": "1.3.32"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-f83bd8b912a30bed5c5a",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "version": "1.3.28",
+          "version_normalized": "1.3.28",
+          "version_raw": "1.3.28"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-c7c17af9e084818c5a06",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "新内容：在GOG、Steam或LAN上增加了多人游戏。这包括与自定义表情聊天和新的小屋建筑。 新内容：增加了夜市活动。 新内容：添加社区升级到木匠的商店。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2018-08-01",
+          "version": "1.3.27",
+          "version_normalized": "1.3.27",
+          "version_raw": "1.3.27"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-8d9d41260d77833da4e0",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "变化：修复linux和OSX构建使用单目录内置内容而不是XNA构建的内容（这使得制作MOD更加困难）。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2017-07-10",
+          "version": "1.2.33",
+          "version_normalized": "1.2.33",
+          "version_raw": "1.2.33"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-333d13595a602f75fe75",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "问题修复：修复linux版本中损坏的符号链接导致安装失败的问题。 问题修复：修复如果在使用退出标题后启动新文件，可能会保存文件可能会被覆盖的问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2017-07-10",
+          "version": "1.2.32",
+          "version_normalized": "1.2.32",
+          "version_raw": "1.2.32"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-2b3ee7792ba24058c85c",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "变化：帽子的描述里现在增加了它们对应的成就。 问题修复：修复与使用老虎机有关的崩溃。 问题修复：修复了一些可能会不必要的增加内存使用量的来源。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2017-07-07",
+          "version": "1.2.31",
+          "version_normalized": "1.2.31",
+          "version_raw": "1.2.31"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-7046d78b204a6beb5df7",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "变化：现在设置窗口模式首选项在所有存档通用了。 问题修复：修复了游戏在加载存档时切换窗口模式时崩溃问题。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2017-05-12",
+          "version": "1.2.30",
+          "version_normalized": "1.2.30",
+          "version_raw": "1.2.30"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-eea0e07088a40e3ccb3a",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "问题修复：修复加载存档时的崩溃问题。 问题修复：修复全屏模式下的崩溃问题。 问题修复：修复由于击杀怪物任务导致的保存过程中崩溃的问题",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2017-05-02",
+          "version": "1.2.29",
+          "version_normalized": "1.2.29",
+          "version_raw": "1.2.29"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-05a97d8eff7892c72a92",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "改动：现已支持德语，西班牙语，葡萄牙语（巴西），俄语，日语 和简体中文。 改动：使用手柄时，光标默认会吸附到菜单按钮上。如果禁用此功能，那么光标将加速移动。 改动：使用手柄时，按下返回键将跳过可以跳过的部分。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2017-04-24",
+          "version": "1.2.26",
+          "version_normalized": "1.2.26",
+          "version_raw": "1.2.26"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-c8975797f4766799d38f",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "小型改动：所有的新农场现在都提供一些钓鱼的机会，不过河边农场仍然更占优势。 小型改动：河边农场现在可以生成鱼的气泡点和矿石的淘金点。 小型改动：玩家现在可以在大多数的草地上放置建筑物。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-10-06",
+          "version": "1.11",
+          "version_normalized": "1.11",
+          "version_raw": "1.11"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-83fcdac27915031bdd90",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "可结婚对象：可结婚对象现在在农场的室外有一块专属的场地，他们有时会在此处做出一些独特的行为。 可结婚对象：山姆会在他的小U型池中玩滑板。 可结婚对象：玛鲁有一个她正在研究的小玩意儿。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-10-03",
+          "version": "1.1",
+          "version_normalized": "1.1",
+          "version_raw": "1.1"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-cfe82ac1092581fd0f68",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "改动：提升了对Mac OSX和Linux的兼容性。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-07-29",
+          "version": "1.07a",
+          "version_normalized": "1.07a",
+          "version_raw": "1.07a"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-7118a802cbb194e677d8",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "游戏性改动：现在在节日期间配偶会有特殊对话（多数情况下如此），而不是通用的一些对话。 游戏性改动：月光水母起舞时配偶将站在玩家旁边。 游戏性改动：关于婚后对话：玩家与某人结婚后，与其父母/亲属的对话内容会有轻微的改变。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-04-04",
+          "version": "1.07",
+          "version_normalized": "1.07",
+          "version_raw": "1.07"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-c9e1242aac25b9de3a38",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "改动：为所有配偶添加了独特的对话。 改动：配偶现在会在星期一离开农舍。 改动：提升了大多数动物产品的价值。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-03-20",
+          "version": "1.06",
+          "version_normalized": "1.06",
+          "version_raw": "1.06"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-590cd912e2d301653c54",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "改动：修复了物品消失的问题（物品仍然可以被农场里的杂物破坏）。 改动：小桶现在需要橡树树脂来打造。 改动：蜂房现在需要枫糖浆来打造。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-03-17",
+          "version": "1.051b",
+          "version_normalized": "1.051b",
+          "version_raw": "1.051b"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-68881b9b24bed085fa04",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "改动：修复了奇怪的矩形照明问题。 改动：地板现在可以被炸弹移除。 改动：玩家可以按下“菜单”键（默认为或）关闭是/否的确认界面。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-03-12",
+          "version": "1.051",
+          "version_normalized": "1.051",
+          "version_raw": "1.051"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-9262a5ff042babd0b9ed",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "游戏性改动：建议玩到第3年后阅读：爷爷的想法改变了...... 他觉得自己的判断过于严厉。他不会再提及“伟大的荣誉”，并且他的对话将变得温和许多。如果他已经拜访过玩家，查看他的神龛将得到一个新的机会...... 游戏性改动：修复了“丢失的”谢恩事件。 游戏性改动：将地震改为夏季3日发生...... 以清楚地表明是季节改变杀死了农作物。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-03-09",
+          "version": "1.05",
+          "version_normalized": "1.05",
+          "version_raw": "1.05"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-2b0af37098b9d8e95eae",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "游戏性改动：在创建角色界面添加一个随机创建按钮 游戏性改动：罗宾现在售卖“木地板”、“石头地板”和“垫脚石小径”的配方。 游戏性改动：添加了一个秘密的新方法去修改一件稀有物品。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-03-01",
+          "version": "1.04",
+          "version_normalized": "1.04",
+          "version_raw": "1.04"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-ac6d8870415743d81c0a",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "游戏性改动：烹饪菜单现在可以如同搜寻玩家物品栏一样在冰箱中搜寻物品。 游戏性改动：稻草人的影响范围半径减小至8格。 游戏性改动：牧场主职业对蛋黄酱和其他制作而成的动物产品的售价加成提高",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-02-28",
+          "version": "1.03",
+          "version_normalized": "1.03",
+          "version_raw": "1.03"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-e9eb0e70306a934c17d1",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "改动：如果玩家从未收到过宠物，现在可以得到另一个机会。 改动：玩家睡觉时，游戏会检查玩家是否丢失了任何必要的工具。如果是，它们早上会出现在床边。 改动：游戏现在在升级当晚可以正确地保存了。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-02-27",
+          "version": "1.02",
+          "version_normalized": "1.02",
+          "version_raw": "1.02"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-bb82137d030d23aa981c",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "notes": "改动：修复了获得宠物后睡觉时会发生随机崩溃的问题。 改动：现在载入时音效音量会正确应用。 改动：星之果实酒吧不会再销售“错误物品”。",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-02-26",
+          "version": "1.01",
+          "version_normalized": "1.01",
+          "version_raw": "1.01"
+        },
+        {
+          "availability": "metadata-only",
+          "channel": "release",
+          "entry_id": "entry-2d673eef59f06bbe0505",
+          "entry_type": "version",
+          "last_verified_at": "2026-11-03T18:46:24Z",
+          "provenance": [
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardew-valley-wiki"
+            },
+            {
+              "method": "import",
+              "retrieved_at": "2026-11-03T18:46:24Z",
+              "source_id": "history-stardew-stardewvalley-net"
+            }
+          ],
+          "release_date": "2016-02-26",
+          "version": "1.0",
+          "version_normalized": "1.0",
+          "version_raw": "1.0"
+        }
+      ],
+      "game_id": "stardew-valley",
+      "last_verified_at": "2026-11-03T18:46:24Z",
+      "license": {
+        "code": {
+          "spdx_id": "MIT"
+        },
+        "data": {
+          "notice": "仅发布版本元数据、来源和入口，不随本目录再分发游戏文件。",
+          "spdx_id": "LicenseRef-GameVersionLibrary-Metadata"
+        },
+        "redistribution": "link-only"
+      },
+      "name": "星露谷物语 PC 版本记录",
+      "platform": {
+        "display_name": "星露谷物语 PC 版本记录",
+        "family": "desktop",
+        "os": "Windows/macOS/Linux"
+      },
+      "platform_id": "stardew-valley-pc",
+      "provenance": {
+        "method": "import",
+        "retrieved_at": "2026-11-03T18:46:24Z",
+        "source_ids": [
+          "history-stardew-stardew-valley-wiki",
+          "history-stardew-stardewvalley-net"
         ]
       }
     },
@@ -7523,7 +8871,7 @@
         }
       ],
       "game_id": "terraria",
-      "last_verified_at": "2026-11-02T13:18:55Z",
+      "last_verified_at": "2026-11-03T18:46:24Z",
       "license": {
         "code": {
           "spdx_id": "MIT"
@@ -9044,7 +10392,7 @@
         }
       ],
       "game_id": "terraria",
-      "last_verified_at": "2026-11-02T13:18:55Z",
+      "last_verified_at": "2026-11-03T18:46:24Z",
       "license": {
         "code": {
           "spdx_id": "MIT"

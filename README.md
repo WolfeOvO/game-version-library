@@ -20,6 +20,8 @@ schema/game-version-library.schema.json  JSON Schema Draft 2020-12
 
 data/catalog.json                        非 Minecraft 规范化目录
 data/source-snapshots/non-minecraft/     脱敏后的审计快照
+docs/                                    MkDocs 页面源码与 Ore 风格公开主题
+overrides/main.html                      独立站点模板
 
 scripts/build_catalog.py                  快照 → 规范化目录
 scripts/collect_atomlib.py                Terraria/Rusted Warfare 来源采集器
@@ -28,6 +30,7 @@ scripts/collect_stardew.py                星露谷来源采集器
 scripts/sanitize_snapshots.py             删除提取码和临时签名
 scripts/validate_catalog.py               Schema + 语义校验
 scripts/render_markdown.py                规范目录 → Markdown 页面
+mkdocs.yml                                 可复现站点配置
 .github/workflows/validate.yml            GitHub Actions 校验
 ```
 
@@ -51,9 +54,16 @@ python3 scripts/build_catalog.py
 python3 scripts/render_markdown.py
 python3 scripts/validate_catalog.py
 python3 -m unittest discover -s tests -v
+.venv/bin/mkdocs build --strict
 ```
 
-规范化目录写入 `data/catalog.json`。相同输入快照生成相同记录身份；`generated_at` 使用输入快照时间上界，`last_verified_at` 使用目录内最早验证时间。
+规范化目录写入 `data/catalog.json`。相同输入快照生成相同记录身份；`generated_at` 使用输入快照时间上界，`last_verified_at` 使用目录内最早验证时间。`mkdocs build --strict` 构建完整独立站点到 `site/`，包含 Ore 风格应用栏、导航抽屉、搜索、页面大纲、卡片/列表视图、明暗主题和响应式页面布局。部署到子路径时用 `SITE_URL` 设置规范 URL。
+
+本地预览：
+
+```bash
+.venv/bin/mkdocs serve
+```
 
 ## 数据模型
 

@@ -50,6 +50,38 @@ class CatalogContractTests(unittest.TestCase):
 
     def test_public_catalog_has_no_minecraft_dataset(self):
         self.assertNotIn("minecraft", {dataset["game_id"] for dataset in self.catalog["datasets"]})
+        self.assertFalse((ROOT / "data/source-snapshots/minecraft").exists())
+        site_config = (ROOT / "mkdocs.yml").read_text(encoding="utf-8").lower()
+        self.assertNotIn("minecraft", site_config)
+
+    def test_official_history_snapshots_are_all_in_catalog(self):
+        history = json.loads((ROOT / "data/source-snapshots/non-minecraft/game_history.json").read_text(encoding="utf-8"))
+        datasets = {item["dataset_id"]: item for item in self.catalog["datasets"]}
+        pairs = (
+            ("terraria-desktop", "terraria", "desktop"),
+            ("terraria-mobile", "terraria", "mobile"),
+            ("stardew-valley-android", "stardew", "android"),
+            ("stardew-valley-pc", "stardew", "pc"),
+            ("rusted-warfare-history", "rustedwarfare", "all"),
+        )
+        for dataset_id, game_id, platform_id in pairs:
+            expected = {str(item["v"]) for game_platform in history["games"][game_id]["platforms"] if game_platform["key"] == platform_id for item in game_platform["versions"]}
+            actual = {entry["version"] for entry in datasets[dataset_id]["entries"]}
+            self.assertTrue(expected <= actual, f"{dataset_id}: missing {sorted(expected - actual)}")
+
+    def test_site_shell_sources_and_build_config_are_included(self):
+        for path in (
+            "mkdocs.yml",
+            "overrides/main.html",
+            "docs/stylesheets/ore.css",
+            "docs/stylesheets/catalog.css",
+            "docs/stylesheets/site.css",
+            "docs/javascripts/app.js",
+            "docs/javascripts/catalog.js",
+            "docs/javascripts/tabs.js",
+            "docs/javascripts/motion.js",
+        ):
+            self.assertTrue((ROOT / path).is_file(), path)
 
     def test_markdown_renderer_smoke(self):
         result = subprocess.run(
@@ -60,7 +92,7 @@ class CatalogContractTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(0, result.returncode, result.stdout + result.stderr)
-        self.assertTrue((ROOT / "rendered/index.md").exists())
+        self.assertTrue((ROOT / "docs/index.md").exists())
 
 
 if __name__ == "__main__":

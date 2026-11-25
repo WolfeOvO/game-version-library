@@ -1,0 +1,66 @@
+/* MC resource previews: hard-edge Ore panels, not a second theme. */
+.ore-catalog,[data-ore-home]{--catalog-surface:#313233;--catalog-hover:#3c3d3e;--catalog-ink:#ffffff;--catalog-muted:#d0d1d4;--catalog-line:#66676a;--catalog-edge:#1e1e1f;--catalog-focus:#a0e081;--catalog-chip:#48494a;--catalog-highlight:#ffffff24}
+html[data-ore-theme="light"] :is(.ore-catalog,[data-ore-home]){--catalog-surface:#f3f4f5;--catalog-hover:#e6e8eb;--catalog-ink:#1e1e1f;--catalog-muted:#48494a;--catalog-line:#a5a6a9;--catalog-edge:#8c8d90;--catalog-focus:#1d4d13;--catalog-chip:#e6e8eb;--catalog-highlight:#ffffff}
+.md-typeset .ore-catalog{min-width:0;max-width:100%}
+.md-typeset .ore-catalog>h1{margin-bottom:12px}
+.md-typeset .ore-catalog>p:first-of-type{max-width:72ch;margin:0 auto 24px;text-align:center;color:var(--catalog-muted);font-size:15px}
+.md-typeset .ore-catalog>p:first-of-type em{font-style:normal}
+body:has(.ore-catalog,[data-ore-home]) .ore-dialog-head strong{color:#ffffff}
+body:has(.ore-catalog,[data-ore-home]) .ore-outline-filter::placeholder{color:#b1b2b5;opacity:1}
+.md-typeset .ore-catalog>h2{text-align:left;font-size:22px;line-height:1.45;margin:32px 0 16px;padding:16px 0 0;border-color:var(--catalog-line)}
+.ore-catalog-toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin:20px 0 8px;padding:12px 0;border-top:1px solid var(--catalog-line);color:var(--catalog-muted)}
+.ore-catalog-label{font-size:13px;font-weight:600}
+.ore-catalog-switch{display:flex;gap:4px;max-width:100%}
+.ore-catalog-switch button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 12px;border:1px solid var(--catalog-edge);background:var(--catalog-surface);box-shadow:inset 0 1px var(--catalog-highlight),inset 0 -3px var(--catalog-edge);color:var(--catalog-ink);font-size:14px;line-height:1.4;transition:background-color 100ms,box-shadow 100ms}
+.ore-catalog-switch button svg{width:16px;height:16px;flex:0 0 16px;fill:currentColor}
+.ore-catalog-switch button:hover{background:var(--catalog-hover)}
+.ore-catalog-switch button:active{box-shadow:inset 0 2px var(--catalog-edge)}
+.ore-catalog-switch button[aria-pressed="true"]{background:#3c8527;color:#fff;border-color:#1d4d13;box-shadow:inset 0 1px #ffffff40,inset 0 -3px #1d4d13}
+.ore-catalog :is(button,a):focus-visible,[data-ore-home] a:focus-visible{outline:2px solid var(--catalog-focus);outline-offset:3px}
+.md-typeset .ore-resource-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));align-items:stretch;gap:12px;list-style:none;padding:0;margin:0 0 24px}
+.md-typeset .ore-resource-grid>.ore-resource-card{display:flex;flex-direction:column;min-width:0;margin:0;padding:16px;background:var(--catalog-surface);border:1px solid var(--catalog-edge);box-shadow:inset 0 1px var(--catalog-highlight),inset 0 -2px var(--catalog-edge);color:var(--catalog-ink);transition:background-color 100ms,border-color 100ms}
+.ore-resource-card:hover{border-color:var(--catalog-line)}
+.ore-resource-head{position:relative;display:flex;align-items:flex-start;gap:12px;min-width:0;margin-bottom:12px}
+.ore-resource-recommendation{position:absolute;right:-7px;top:-10px;display:block;width:14px;height:14px;color:var(--catalog-muted)}
+.ore-resource-recommendation svg{display:block;width:100%;height:100%;fill:currentColor}
+.ore-resource-icon{display:flex;align-items:center;justify-content:center;flex:0 0 40px;width:40px;height:40px;border:1px solid var(--catalog-line);background:var(--catalog-chip);color:var(--catalog-muted)}
+.ore-resource-icon img{width:28px;height:28px;object-fit:contain;max-width:none;background:#fff}
+.ore-resource-icon svg{width:24px;height:24px}
+.ore-resource-identity{flex:1;min-width:0}
+.ore-resource-title{font-size:17px;line-height:1.45;font-weight:700;overflow-wrap:anywhere;text-wrap:pretty;line-break:strict}
+.md-typeset .ore-resource-title a{color:var(--catalog-ink);text-decoration:none}
+.md-typeset .ore-resource-title a:hover{text-decoration:underline;text-underline-offset:4px}
+.ore-resource-host{display:block;margin-top:4px;color:var(--catalog-muted);font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+.ore-resource-description{color:var(--catalog-muted);font-size:14px;line-height:1.75;overflow-wrap:anywhere}
+.md-typeset .ore-resource-description p{margin:0;color:inherit}
+.ore-resource-description:empty{display:none}
+.ore-resource-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.ore-resource-tag{padding:2px 6px;background:var(--catalog-chip);color:var(--catalog-muted);font-size:12px;line-height:1.5}
+.ore-resource-links{margin-top:auto;padding-top:14px;font-size:13px;line-height:1.65;color:var(--catalog-muted)}
+.md-typeset .ore-resource-links ul,.md-typeset .ore-resource-links ol{list-style:none;padding:10px 0 0;margin:0;border-top:1px solid var(--catalog-line)}
+.md-typeset .ore-resource-links li{color:var(--catalog-muted);margin:0}
+.md-typeset .ore-resource-links li+li{margin-top:8px}
+.ore-resource-links a{display:inline-block;padding-block:4px}
+.ore-catalog[data-catalog-view="list"] .ore-resource-grid{grid-template-columns:minmax(0,1fr);gap:0;border-top:1px solid var(--catalog-line)}
+.md-typeset .ore-catalog[data-catalog-view="list"] .ore-resource-card{display:grid;grid-template-columns:minmax(180px,32%) minmax(0,1fr);gap:8px 24px;padding:16px 4px;border:0;border-bottom:1px solid var(--catalog-line);box-shadow:none;background:transparent}
+.ore-catalog[data-catalog-view="list"] .ore-resource-head{grid-column:1;grid-row:1 / span 2;margin:0}
+.ore-catalog[data-catalog-view="list"] .ore-resource-description{grid-column:2;grid-row:1}
+.ore-catalog[data-catalog-view="list"] .ore-resource-tags{grid-column:2;grid-row:2;margin-top:0}
+.ore-catalog[data-catalog-view="list"] .ore-resource-links{grid-column:2;margin:0;padding-top:0}
+.md-typeset .ore-catalog[data-catalog-view="list"] .ore-resource-links ul{border:0;padding-top:0}
+.md-typeset [data-ore-home]{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 24px;margin-top:24px}
+.md-typeset [data-ore-home] .ore-entry-section{grid-column:auto;background:transparent;border:0;padding:0}
+.md-typeset [data-ore-home] .ore-entry-section:first-child{grid-column:1 / -1}
+.md-typeset [data-ore-home] .ore-entry-section:nth-child(4),.md-typeset [data-ore-home] .ore-entry-section:nth-child(5){grid-column:1 / -1}
+.md-typeset [data-ore-home] .ore-entry-section>h3{font-size:18px;line-height:1.5;margin:0 0 12px;color:var(--catalog-ink)}
+.md-typeset [data-ore-home] .ore-entry-section>p{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin:0}
+.md-typeset [data-ore-home] .ore-entry-link{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:6px;min-width:0;padding:16px 48px 16px 16px;color:var(--catalog-ink);background:var(--catalog-surface);border:1px solid var(--catalog-edge);box-shadow:inset 0 1px var(--catalog-highlight),inset 0 -2px var(--catalog-edge);text-decoration:none;transition:background-color 100ms,box-shadow 100ms}
+.md-typeset [data-ore-home] .ore-entry-link:hover{color:var(--catalog-ink);background:var(--catalog-hover)}
+.md-typeset [data-ore-home] .ore-entry-link:active{box-shadow:inset 0 2px var(--catalog-edge)}
+.ore-entry-name{font-size:16px;font-weight:700;line-height:1.5}
+.ore-entry-description{font-size:14px;line-height:1.7;color:var(--catalog-muted)}
+.ore-entry-arrow{position:absolute;right:16px;top:18px;width:20px;height:20px;color:var(--catalog-muted)}
+.ore-entry-arrow svg{width:100%;height:100%;fill:currentColor}
+.ore-catalog ::selection,[data-ore-home] ::selection{background:#3c8527;color:#fff}
+@media(max-width:719px){.md-typeset .ore-catalog>h2{font-size:20px;margin-top:28px}.md-typeset .ore-resource-grid{grid-template-columns:minmax(0,1fr)}.md-typeset .ore-resource-grid>.ore-resource-card{padding:14px}.ore-resource-title{font-size:16px}.md-typeset .ore-catalog[data-catalog-view="list"] .ore-resource-card{grid-template-columns:minmax(0,1fr);gap:8px;padding:14px 0}.ore-catalog[data-catalog-view="list"] .ore-resource-head,.ore-catalog[data-catalog-view="list"] .ore-resource-description,.ore-catalog[data-catalog-view="list"] .ore-resource-tags,.ore-catalog[data-catalog-view="list"] .ore-resource-links{grid-column:1;grid-row:auto}.ore-catalog[data-catalog-view="list"] .ore-resource-icon{width:32px;height:32px;flex-basis:32px}.ore-catalog[data-catalog-view="list"] .ore-resource-icon img{width:24px;height:24px}.md-typeset [data-ore-home]{grid-template-columns:minmax(0,1fr);gap:24px}.md-typeset [data-ore-home] .ore-entry-section{grid-column:1!important}}
+@media(prefers-reduced-motion:reduce){.ore-catalog-switch button,.ore-resource-card,[data-ore-home] .ore-entry-link{transition:none}}

@@ -1,0 +1,30 @@
+/* Public non-Minecraft site shell. Keeps the Ore palette without private production files. */
+:root{--ore-bg:#48494a;--ore-panel:#313233;--ore-deep:#1e1e1f;--ore-green:#3c8527;--ore-light:#a0e081;--ore-gray:#d0d1d4;color-scheme:dark}
+body{background:var(--ore-bg);color:#fff}
+.md-header,.md-tabs{background:var(--ore-panel);border-bottom:2px solid var(--ore-deep)}
+.md-tabs__link,.md-header__button,.md-header__title{color:#fff!important}
+.md-sidebar{background:var(--ore-panel)}
+.md-sidebar__scrollwrap{scrollbar-color:#8c8d90 var(--ore-deep)}
+.md-nav__link{color:#d0d1d4}
+.md-nav__link:hover,.md-nav__link--active{color:#fff;background:#48494a}
+.md-main{background:var(--ore-bg)}
+.md-content__inner{max-width:1180px;margin-inline:auto}
+.md-typeset{color:#fff;font-size:16px;line-height:1.65}
+.md-typeset h1,.md-typeset h2,.md-typeset h3,.md-typeset h4{color:#fff;font-weight:700}
+.md-typeset h1{text-align:center;font-size:clamp(26px,3vw,34px)}
+.md-typeset h2{border-top:1px solid #313233;padding-top:16px}
+.md-typeset a{color:#a0e081}
+.md-typeset a:hover{color:#d7ffc4}
+.md-typeset table{background:#48494a;color:#fff}
+.md-typeset th{background:#313233;color:#fff}
+.md-typeset td,.md-typeset th{border-color:#66676a}
+.md-typeset code{background:#313233;color:#f4f6f9}
+.md-typeset :is(details,.admonition){background:#48494a;color:#fff;border-color:#313233}
+.md-typeset :is(details,.admonition)>:is(summary,.admonition-title){background:#313233;color:#fff}
+.md-footer{background:#313233;color:#d0d1d4}
+.ore-page-shell{min-width:0}
+.md-typeset__scrollwrap{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain}
+.md-typeset__table{max-width:100%;overflow-x:auto}
+.md-typeset__table table{min-width:0}
+@media(max-width:719px){.md-typeset{font-size:15px}.md-content__inner{padding-inline:12px}}
+@media(prefers-color-scheme:light){html[data-ore-theme="light"] body,html[data-ore-theme="light"] .md-main{background:#e6e8eb;color:#1e1e1f}html[data-ore-theme="light"] .md-typeset,html[data-ore-theme="light"] .md-typeset h1,html[data-ore-theme="light"] .md-typeset h2,html[data-ore-theme="light"] .md-typeset h3{color:#1e1e1f}}

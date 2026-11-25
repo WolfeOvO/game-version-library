@@ -1,0 +1,91 @@
+site_name: 游戏版本库
+site_description: 星露谷物语、泰拉瑞亚与铁锈战争的版本与来源索引
+site_author: WolfeOvO
+site_url: !ENV [SITE_URL, 'https://example.invalid/']
+
+copyright: 版本元数据与来源索引 · 原始文件归各自来源所有
+
+repo_name: WolfeOvO/game-version-library
+repo_url: https://github.com/WolfeOvO/game-version-library
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: zh
+  font: false
+  logo: assets/favicon.svg
+  favicon: assets/favicon.svg
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+docs_dir: docs
+site_dir: site
+
+extra_css:
+  - stylesheets/ore.css
+  - stylesheets/catalog.css
+  - stylesheets/site.css
+extra_javascript:
+  - javascripts/theme.js
+  - javascripts/catalog.js
+  - javascripts/site.js
+  - javascripts/outline.js
+  - javascripts/app.js
+  - javascripts/tabs.js
+  - javascripts/motion.js
+
+nav:
+  - 首页: index.md
+  - 星露谷物语:
+      - Android: stardew-valley/stardew-valley-android.md
+      - PC 版本记录: stardew-valley/stardew-valley-pc.md
+  - 泰拉瑞亚:
+      - 桌面版: terraria/terraria-desktop.md
+      - Android: terraria/terraria-mobile.md
+      - AtomCraft 服务端: terraria/terraria-server-atomcraft.md
+      - 手机版服务端: terraria/terraria-server-mobile.md
+      - PC 服务端: terraria/terraria-server-pc.md
+      - tModLoader 服务端: terraria/terraria-server-tmodloader.md
+      - TShock 服务端: terraria/terraria-server-tshock.md
+  - 铁锈战争:
+      - Android: rusted-warfare/rusted-warfare-android.md
+      - RW-HPS 服务端: rusted-warfare/rusted-warfare-server.md
+      - 官方版本记录: rusted-warfare/rusted-warfare-history.md
+  - 关于:
+      - README: https://github.com/WolfeOvO/game-version-library#readme

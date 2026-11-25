@@ -1,0 +1,90 @@
+{# Standalone Ore-style shell for the public non-Minecraft catalog. #}
+{% extends "base.html" %}
+{% macro render_nav(nodes, current_path='') -%}
+  {%- for item in nodes -%}
+    {%- if item is mapping -%}
+      {%- for title, child in item.items() -%}
+        {%- if child is string -%}
+          {%- set external = child.startswith('http://') or child.startswith('https://') -%}
+          <li class="ore-navrow"><a href="{{ child | url }}"{% if current_path and child == current_path %} aria-current="page"{% endif %}{% if external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ title }}</a></li>
+        {%- else -%}
+          {%- set active = (title == '星露谷物语' and current_path.startswith('stardew-valley/')) or (title == '泰拉瑞亚' and current_path.startswith('terraria/')) or (title == '铁锈战争' and current_path.startswith('rusted-warfare/')) -%}
+          <li><details{% if active %} open{% endif %}><summary><span>{{ title }}</span></summary><ul>{{ render_nav(child, current_path) }}</ul></details></li>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endmacro %}
+
+{% block site_meta %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="ore-base" content="{{ base_url }}">
+  {% if page and page.meta and page.meta.description %}<meta name="description" content="{{ page.meta.description }}">{% else %}<meta name="description" content="{{ config.site_description }}">{% endif %}
+  <meta name="color-scheme" content="light dark">
+  {% if page and page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
+  <link rel="icon" href="{{ config.theme.favicon | url }}">
+{% endblock %}
+
+{% block htmltitle %}
+  {% if page and page.title and not page.is_homepage %}<title>{{ page.title | striptags }} - {{ config.site_name }}</title>{% else %}<title>{{ config.site_name }}</title>{% endif %}
+{% endblock %}
+
+{% block styles %}{% endblock %}
+{% block libs %}{% endblock %}
+{% block fonts %}{% endblock %}
+{% block analytics %}{% endblock %}
+
+{% block header %}
+<header>
+  <nav class="ore-appbar" aria-label="游戏版本库应用栏">
+    <button type="button" data-ore-action="menu" aria-label="打开导航" aria-expanded="false">☰</button>
+    <a class="ore-brand" href="{{ 'index.html' | url }}"><img src="{{ config.theme.logo | url }}" width="24" height="24" alt=""><span>游戏版本库</span></a>
+    <div class="ore-app-tools">
+      <button type="button" data-ore-action="search" aria-label="搜索游戏版本">搜索</button>
+      <button type="button" data-ore-action="settings" aria-label="显示设置">设置</button>
+    </div>
+  </nav>
+</header>
+<dialog class="ore-drawer" aria-label="版本库导航">
+  <div class="ore-dialog-head"><strong>导航</strong><button type="button" data-ore-action="close" aria-label="关闭导航">×</button></div>
+  <nav aria-label="游戏页面"><ul class="ore-tree">{{ render_nav(config.nav, page.file.src_path if page and page.file else '') }}</ul></nav>
+</dialog>
+<dialog class="ore-dialog" aria-label="版本库工具"></dialog>
+{% endblock %}
+
+{% block tabs %}{% endblock %}
+{% block site_nav %}{% endblock %}
+
+{% block container %}
+<main class="ore-workspace" data-renderer="standalone-ore">
+  <article id="content" class="md-content__inner md-typeset" tabindex="-1">
+    <span id="__skip"></span>
+    {% if page and page.meta and page.meta.tags %}<nav class="md-tags" aria-label="页面标签">{% for tag in page.meta.tags %}<span class="md-tag">{{ tag }}</span>{% endfor %}</nav>{% endif %}
+    {% block content %}{% if page %}{{ page.content }}{% else %}<h1>页面不存在</h1><p>请从导航或搜索中选择一个游戏版本库页面。</p>{% endif %}{% endblock %}
+  </article>
+  <aside class="ore-outline-aside" aria-label="页面大纲">
+    <section class="ore-outline-panel">
+      <div class="ore-dialog-head"><strong>页面大纲</strong><button type="button" data-ore-action="close-outline" aria-label="关闭页面大纲">×</button></div>
+      <div class="ore-outline-controls"><input class="ore-outline-filter" type="search" aria-label="筛选页面大纲" placeholder="筛选章节或版本号"><small class="ore-outline-count" role="status"></small></div>
+      <nav><ul class="ore-outline-list"></ul></nav>
+    </section>
+  </aside>
+</main>
+<button type="button" class="ore-outline-trigger" data-ore-action="outline">页面大纲</button>
+<dialog class="ore-drawer ore-outline-dialog" aria-label="页面大纲"></dialog>
+<button type="button" class="ore-top" aria-label="回到顶部" hidden>↑ 回到顶部</button>
+<div class="ore-toast" role="status" hidden></div>
+{% endblock %}
+
+{% block footer %}
+<footer>致游戏爱好者。版本元数据和下载入口来自各自标注的公开来源；原始文件归其权利人所有。<br><a href="https://github.com/WolfeOvO/game-version-library" target="_blank" rel="noopener noreferrer">GitHub 开源仓库</a></footer>
+{% endblock %}
+
+{% block config %}
+<script id="__config" type="application/json">{"base":{{ base_url | tojson }},"site":"non-minecraft-game-version-library"}</script>
+{% endblock %}
+
+{% block scripts %}
+  {% for script in config.extra_javascript %}{{ script | script_tag }}{% endfor %}
+{% endblock %}
