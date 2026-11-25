@@ -43,7 +43,7 @@ python3 scripts/build_catalog.py
 python3 scripts/validate_catalog.py
 ```
 
-规范化目录写入 `data/catalog.json`。构建过程是确定性的：相同输入快照应生成相同记录身份和内容。
+规范化目录写入 `data/catalog.json`。构建过程是确定性的：相同输入快照应生成相同记录身份和内容。`generated_at` 采用输入快照时间的确定性上界，`last_verified_at` 采用目录内最早验证时间；具体数据集和条目还保留自己的验证时间。
 
 ## 数据模型
 

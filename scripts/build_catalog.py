@@ -382,11 +382,12 @@ def build() -> dict:
     all_times = [dataset["last_verified_at"] for dataset in datasets]
     all_times.extend(entry["last_verified_at"] for dataset in datasets for entry in dataset["entries"])
     generated_at = max(all_times or [NOW_FALLBACK])
+    last_verified_at = min(all_times or [generated_at])
     catalog = {
         "schema_version": "1.0.0",
         "catalog_id": "game-version-library",
         "generated_at": generated_at,
-        "last_verified_at": generated_at,
+        "last_verified_at": last_verified_at,
         "license": license_block(),
         "provenance": {
             "pipeline": {"name": "game-version-library-catalog-builder", "version": "1.0.0"},
